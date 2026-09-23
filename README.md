@@ -1,111 +1,117 @@
-# Review of national uptake of Council of Europe Rec(2022)2
+# National uptake of Recommendation Rec(2022)2
 
-This repository is the working space for a review of how far [Recommendation Rec(2022)2](sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf) has been integrated into national legislation and regulation.
+This repository is the review of how far countries have reflected [Recommendation Rec(2022)2](sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf) in national legal, regulatory, and administrative frameworks, and what has changed since it was adopted.
 
-The recommendation was adopted by the Committee on Safety and Security at Sports Events (T-S4, the Saint-Denis Committee) by written procedure on 1 September 2022. The English text is dated Strasbourg, 5 October 2022. It is addressed to governments of Parties to the Council of Europe Convention on an Integrated Safety, Security and Service Approach at Football Matches and Other Sports Events (CETS No. 218, the Saint-Denis Convention).
+The recommendation was adopted by the Committee on Safety and Security at Sports Events (T-S4, the Saint-Denis Committee) by written procedure on **1 September 2022**. The English text is dated Strasbourg, 5 October 2022. It is addressed to governments of Parties to the Council of Europe Convention on an Integrated Safety, Security and Service Approach at Football Matches and Other Sports Events (CETS No. 218, the Saint-Denis Convention).
 
-It recommends that those governments:
+It asks those governments to:
 
-1. Adopt or refine a **national law** on safety, security and service at football matches and other sports events, based on the model legislative framework in **Annex 1**.
-2. Adopt or refine a **national regulation on stewarding** at football matches and other sports events, based on the model guidelines in **Annex 2**.
+1. Adopt or refine a **national law** on safety, security and service at football matches and other sports events, based on the model in **Annex 1**.
+2. Adopt or refine a **national regulation on stewarding**, based on the model in **Annex 2**.
 
-Public background on the T-S4 recommendations is on the [Council of Europe sport site](https://www.coe.int/en/web/sport/t-s4-recommendations). This review is Rec(2022)2, the model law and stewarding regulation. It is separate from Rec(2022)1, the model structure of a national strategy, which the Committee adopted on the same day.
+The recommendation is a model to adapt. Its introduction says a single statute for every country is neither possible nor desirable. This review therefore maps **equivalent national rules** on the same topics. An explicit citation of Rec(2022)2 is recorded when a source contains one. The result is a sourced map of coverage and of change since 1 September 2022.
 
-The question for this project is practical: **for each country in scope, which parts of Annex 1 and Annex 2 are already reflected in national law, regulation, or official guidance, and what has changed since 2022?**
+Rec(2022)2 is the model law and the stewarding regulation. Rec(2022)1, adopted the same day, is the model structure of a national strategy and is outside this review. Public background is on the [Council of Europe T-S4 recommendations page](https://www.coe.int/en/web/sport/t-s4-recommendations). The authoritative party list is the [treaty chart for CETS No. 218](https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=218).
 
-## Where this came from
+## What the repository holds
 
-The review was set out in an email from Michael. The points that shape the work are:
+The repository is the record. Each claim about a country points at a source, and the git history shows who entered it and when.
 
-- A word-for-word citation of Rec(2022)2 in national legislation is unlikely, so the search has to widen to **topic clusters**.
-- Lists of what to look for under Annex 1 and Annex 2 were produced with NebulaONE. They are the shared search headings, and they are kept in the [crosswalk tracker](sources/eu-rec2022-2-crosswalk-tracker.md).
-- Wider queries need one overview, so every country is checked against the same buckets and the status of each query stays visible.
-- Where material is found, write a **short note for that country** on what has changed since 2022. The note is also a way to limit later searching.
-- From those notes, design a **survey for country representatives**, and design it so the replies can be analysed.
-- Use central search and the topic lists to carry the desk work, and keep the request to each country representative small.
-
-The recommendation itself points the same way. Its introduction says a single definitive statute for every country is neither possible nor desirable, because constitutional, judicial, administrative, policing, and cultural arrangements differ. The appendix of criminal offences and sanctions is a set of illustrative examples for legislators to draw on selectively. The review is therefore looking for **equivalent national rules on the same topics**, and it records an explicit citation of Rec(2022)2 whenever a source contains one.
-
-## What the search is looking for
-
-Annex 1 is the model national legislative framework (safety, security, and service). Annex 2 is the model stewarding regulation. The cluster names below are the working search headings. Article numbers and the prompts for what to look for in national legislation are in the tracker, which is the list to use.
-
-### Annex 1 — model national legislative framework
-
-| Topic cluster | Covers |
+| Record | What it is |
 |---|---|
-| National governance and coordination | National safety, security and service committee; regional and local coordination; national strategy; allocation of responsibilities |
-| Safety philosophy and venue responsibility | Integrated safety approach; venue and operator duties; safety officers; safety regulations |
-| Safety certification and licensing | Venue safety certificates; certifying authority; inspection; enforcement notices; offences and sanctions |
-| Venue infrastructure and crowd control | Seating; segregation; CCTV; parking and access routes; operational manuals; communication with police and emergency services |
-| Emergency and disaster planning | Emergency plans; contingency plans; evacuation; exercises; command and control |
-| Venue safety service and stewarding | Safety service; safety officer; stewarding; volunteers; staffing; briefing and training |
-| Access control and inclusion | Ticketing; ingress conditions; prohibited items; searches; expulsion and refusal of entry; disability access |
-| Policing, risk management and exclusion | Police coordination; risk-supporter categorisation; banning orders; databases; National Football Information Point (NFIP); information exchange |
-| Service, dialogue and inclusion | Supporter dialogue; supporters’ charters; supporter liaison officers; disability access officers; anti-discrimination; community engagement; fan embassies and fan projects |
-| Criminal offences and sanctions | Appendix examples: ticket fraud, disorder, missile throwing, pitch invasion, assaults, repeat offenders, banning orders, community work |
+| Codebook | The topics every country is checked against. Shared, versioned, and the same for the desk review, the country briefs, and the survey. |
+| Search log | The sources checked for a country, including checks that found nothing. |
+| Evidence | The instrument: title, citation, link, date, language, and which codebook items it speaks to. A short paraphrase. The text of the instrument stays in the official source. |
+| Assessment | For each country and each codebook item: status, confidence, what changed since 1 September 2022, and the evidence used. |
+| Country brief | A short narrative for that country: the current framework, and what has changed since 1 September 2022. |
+| Survey | Questions generated from the assessment, sent to the country representative, with replies written back into the same assessment. |
 
-### Annex 2 — stewarding regulations
+Country representatives receive a prepared brief and are asked to confirm it, correct it, or supply a missing instrument. The desk review stays in this repository.
 
-| Topic cluster | Covers |
+## Codebook
+
+The codebook is version 1: [`codebook/codebook.md`](codebook/codebook.md), generated from [`codebook/codebook.yaml`](codebook/codebook.yaml). It has 16 clusters and 58 indicators, taken from Annex 1 and Annex 2.
+
+- A **cluster** is a heading in the country brief and in the survey.
+- An **indicator** is one duty inside a cluster. Certification, for example, is five indicators: a required certificate, a named authority, a safe capacity, inspection, and enforcement.
+
+Article numbers on each cluster point back to the recommendation. The appendix of criminal offences is illustrative: those indicators are met when the conduct is punishable under national law, including under general criminal law.
+
+A survey question is asked for an indicator when the finding is `partial`, `not_found`, or low confidence. A cluster that is `met` at high confidence is one confirmation.
+
+The first sketch of headings is in [`background/first-topic-list.md`](background/first-topic-list.md). That file is background only. The country table in it is the original sketch and is left unchanged.
+
+## How a country is judged
+
+Each indicator gets one status:
+
+| Status | Meaning |
 |---|---|
-| Steward status and qualifications | Licensing or qualification; recruitment; vetting; language and conduct standards |
-| Steward duties and powers | Crowd control; search; access control; incident response; first aid; liaison with police and supporters |
-| Code of conduct and visibility | Conduct rules; uniform and identification; neutrality; unique identification numbers |
-| Records and supervision | Safety handbooks; training records; event logs; inspection-ready documentation |
-| Training and exercises | Initial and refresher training; evacuation exercises; counter-terrorism awareness; fire safety; first aid |
-| Special support functions | Supporter-facing role; customer care; inclusive service; disabled-supporter support; overlap with private-security law |
+| `met` | A national instrument requires the substance of the indicator for football matches or other sports events in scope. |
+| `partial` | The instrument covers only part of the indicator, applies only to some events, or recommends the duty without requiring it. |
+| `not_found` | The search protocol for that country was completed, and no such instrument was identified. |
+| `not_applicable` | The indicator cannot apply. The assessment says why. |
 
-## Evidence
+Statute, regulation, and a licensing condition that a venue must meet can all be `met`. A football-association rule, a ministry circular, or another administrative instrument can be `met` when it is the instrument that actually imposes the duty. A strategy, charter, or guidance note that only recommends the duty is `partial`.
 
-A source is relevant when an official or quasi-official body published it and it speaks to one of the clusters above. The tracker’s evidence list matches the recommendation’s own phrase, “legal, regulatory or administrative frameworks”:
+Each judgement also records:
 
-- National sports-safety or stadium legislation
-- Football association safety regulations
-- Stadium licensing or policing guidance
-- Ministry or government circulars on match safety
-- National football security strategies
-- Stewarding regulations or private-security rules
-- Standards or guidance that cite a Council of Europe recommendation number
+- **Confidence:** `high`, `medium`, or `low`. A judgement on a text the reviewer could not read is `low` until a reader of that language, or the country representative, confirms it.
+- **Change since 1 September 2022:** `new`, `amended`, `unchanged`, or `unknown`. The country brief states the current rule and what changed. The baseline is the framework that those changes amended.
 
-## Tracking
+## Search protocol
 
-The shared overview is [`sources/eu-rec2022-2-crosswalk-tracker.md`](sources/eu-rec2022-2-crosswalk-tracker.md). It has two layers.
+The same source families are checked for every country, and each check is written in the search log, including an empty result.
 
-1. **Topic crosswalk.** Annex 1 and Annex 2 clusters, the annex articles each cluster stands in for, and what to look for in national law.
-2. **Country matrix.** One row for each of the 46 Council of Europe member states, with columns for Annex 1 coverage, Annex 2 coverage, the main official sources, and notes.
+1. The national legislation database or official gazette.
+2. The ministry responsible for sport, and the authority responsible for policing sports events.
+3. The stadium licensing or safety-certification authority.
+4. The national football association’s safety and stadium rules.
+5. The national football information point, or the body that carries that function.
+6. A direct search for `Rec(2022)2`, the Saint-Denis Convention, and CETS No. 218.
 
-**Current status:** no member state has yet been confirmed, from the official and quasi-official sources checked so far, as explicitly citing Rec(2022)2. Every country row is **pending verification**. An initial sweep of the first 10 member states in alphabetical order did not produce a verified citation. Coverage is entered only from a checked source. The matrix stays open for that verification.
+Searches use the indicator wording and the national-language terms for that duty. A citation of the recommendation is logged when it appears. Coverage is judged from the national instrument.
 
-## Intended sequence
+## Country brief and survey
 
-This is the order in the starting email. Each later step uses the result of the one before it.
+The brief for a country has five parts: party status and the date of the assessment; how safety, security, and service are organised; what has changed since 1 September 2022; the indicator table with sources; and the gaps.
 
-1. **One overview for the wider queries.** Keep a single topic list and a single country matrix. Log each search against a country and a cluster, with the source checked and the date, so repeated queries are visible and gaps stay visible.
-2. **A short note per country on change since 2022.** Where material is found, set out what the national framework already covered and what has been adopted or amended since the recommendation. Use that note to narrow the remaining search.
-3. **A survey for country representatives.** Build the questions from the gaps in those notes. Ask representatives to confirm the desk-review findings and to supply the documents or dates that central search could not reach. Use the same topic clusters as the answer categories, so replies line up with the matrix.
-4. **Analysis of the returns.** Code each reply against the clusters, with a source. That is what makes a comparison across countries possible.
+The survey is built from that file. Each question restates the finding (“We found this instrument. It appears to meet / partially meet / not address this indicator.”) and asks the representative to confirm it or to name the instrument that should replace it. One open question asks what has changed since 1 September 2022 that the brief missed. Replies use the same indicator identifiers, so they update the assessment and can be compared across countries.
 
-Steps 1 and 2 are there so that country representatives confirm and complete a prepared picture. The literature search stays central.
+The cross-country product is a map: by indicator, how many countries are `met`, `partial`, or `not_found`, and where the framework is new or amended since 1 September 2022. It describes the sourced material.
 
-## Decisions still open
+## How the work proceeds
 
-These need an answer before the matrix is filled in. They are the next conversation.
+1. **Codebook v1.** In place. Revise an indicator only when a pilot shows it is too wide to judge or too narrow to be worth a question.
+2. **Pilot.** Run the full protocol and draft the survey questions on two countries. The first is the United Kingdom, because the stadium-safety legislation is published in English. The file will keep England and Wales, Scotland, and Northern Ireland distinct where their regimes differ. The second is a State Party with little of the framework available in English, chosen when the party list is taken from the treaty chart, so an empty search is tested as well.
+3. **Desk review.** One country file per remaining State Party, copied from [`countries/_template.yaml`](countries/_template.yaml).
+4. **Survey.** Send the pre-filled questions. File the replies against the same indicators.
+5. **Overview.** Update the assessments from the replies and write the cross-country map.
 
-- **Who is in scope.** Rec(2022)2 is addressed to Parties to the Saint-Denis Convention. The matrix currently lists all 46 Council of Europe member states. The review needs a decision on whether non-parties remain in the matrix, and in what status.
-- **What counts as integrated.** The working assumption, until a scale is agreed, is an equivalent national rule on the topic, backed by a source. An explicit citation of Rec(2022)2 is recorded when it appears. A graded scale (for example covered, partial, not found, not applicable) is needed before country notes or survey answers can be compared.
-- **The 2022 cut-off for “what has changed”.** The adoption date is 1 September 2022 and the English text is dated 5 October 2022. The country notes need one cut-off: instruments adopted or amended after a chosen date.
-- **How far official guidance can mark a cluster as covered.** Legislation and regulation are the core. Football-association rules, ministry circulars, and licensing guidance are in the evidence list because a statute that quotes the recommendation will often be missing. The review needs a rule for when those sources are enough to mark a cluster covered, and when they are context only.
-- **Languages.** Central search will miss texts that exist only in a national legal database or in a language the search cannot read reliably. The survey is the route for those gaps, which is a reason to keep each question specific.
-- **Where country notes and survey responses will live.** The tracker is the overview. Per-country outputs and the survey instrument are not set up yet. They follow once the points above are agreed.
+The working audience is the people carrying out the review. Country briefs are written so they can be sent on to a country representative. The overview stays in this repository.
 
-## Repository
+A finding based on a text the reviewer cannot read is recorded at low confidence. Country-representative names and emails are not part of the desk review. The survey tool can be chosen when the pilot questions exist. The questions are drafted here either way.
+
+## Rules in force
+
+- **Scope.** States Parties to CETS No. 218. The country list is a dated snapshot of the [treaty chart](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/218), taken when the second pilot is chosen. At its meeting of 3–4 June 2025 the Committee welcomed Serbia as the 31st State Party. The snapshot for this review is taken from the chart, not from that meeting note.
+- **Cut-off.** 1 September 2022, the date the Committee adopted the recommendation.
+- **Scale and instruments.** The status, confidence, and change fields above.
+- **Storage.** Citations, links, and short paraphrases. Contact details of officials are left out of the country files.
+
+## Status
+
+Codebook v1 is in [`codebook/`](codebook/). The country template is [`countries/_template.yaml`](countries/_template.yaml). No country has been assessed yet.
 
 ```
+codebook/
+  codebook.yaml
+  codebook.md
+countries/
+  _template.yaml
 sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
-  eu-rec2022-2-crosswalk-tracker.md
+background/
+  first-topic-list.md
 README.md
 ```
-
-The PDF is the English text of Rec(2022)2 (67 pages), as circulated with the starting email. The tracker is the NebulaONE topic lists and the country matrix, copied as received. Entries in that matrix are a checklist and a status board. They are not findings.

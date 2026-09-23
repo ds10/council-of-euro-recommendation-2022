@@ -1,3 +1,7 @@
+# First topic list (background only)
+
+An early sketch of headings for Annex 1 and Annex 2. Kept so that wording is not lost. It is not the project codebook, and the country rows below are not assessments. The project method is in the [README](../README.md).
+
 # Council of Europe Rec(2022)2 Crosswalk Tracker
 
 Working matrix to record whether each Council of Europe member state has national standards, legislation, regulations, or official guidance that **covers the key topics** in Rec(2022)2 Annex 1 and Annex 2.
