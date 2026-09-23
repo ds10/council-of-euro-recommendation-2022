@@ -1,0 +1,402 @@
+# Copy to countries/<code>.yaml. One file per country.
+# Status: met | partial | not_found | not_applicable
+# Confidence: high | medium | low
+# Change since 2022-09-01: new | amended | unchanged | unknown
+# Instrument type: statute | regulation | licence_condition | fa_rule | circular | strategy | guidance | other
+# Source family: gazette | sport_ministry | police | licensing | football_association | nfip | citation
+country:
+  name: ""
+  code: ""
+  party_status: ""  # party, taken from the treaty chart
+  party_status_as_of: ""
+  assessed_at: ""
+  languages_read: []
+searches:
+  - id: s1
+    source_family: gazette
+    query: ""
+    date: ""
+    outcome: none  # hit | none
+    url: ""
+    note: ""
+evidence: []
+# evidence entry:
+#   - id: e1
+#     title: ""
+#     citation: ""
+#     url: ""
+#     instrument_date: ""
+#     language: ""
+#     instrument_type: statute
+#     imposes_duty: true
+#     cites_rec_2022_2: false
+#     summary: ""
+indicators:
+  # National governance and coordination
+  - id: a1.gov.committee
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.gov.local
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.gov.strategy
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.gov.roles
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Venue safety duties
+  - id: a1.safety.integrated
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.safety.operator
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.safety.officer
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.safety.regulations
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Safety certification and licensing
+  - id: a1.cert.required
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.cert.authority
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.cert.capacity
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.cert.inspect
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.cert.enforce
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Venue infrastructure and operations
+  - id: a1.venue.infrastructure
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.venue.segregation
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.venue.cctv
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.venue.operations
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Emergency and contingency planning
+  - id: a1.emerg.plan
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.emerg.contingency
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.emerg.evacuation
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.emerg.exercise
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Venue safety service
+  - id: a1.svc.required
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.svc.stewards
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.svc.volunteers
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Access, tickets and exclusion from the venue
+  - id: a1.access.inclusion
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.access.tickets
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.access.prohibited
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.access.search
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.access.expel
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Policing, risk and exclusion
+  - id: a1.police.role
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.police.risk
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.police.ban
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.police.database
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.police.nfip
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Service, dialogue and inclusion
+  - id: a1.dial.dialogue
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.dial.slo
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.dial.dao
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.dial.discrimination
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.dial.projects
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Sports-event offences
+  - id: a1.off.conduct
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a1.off.staff
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Steward status and authorisation
+  - id: a2.status.defined
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.status.qualified
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.status.vetting
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.status.provider
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Steward duties and powers
+  - id: a2.duty.crowd
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.duty.powers
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.duty.emergency
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.duty.police
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Conduct and visibility
+  - id: a2.conduct.code
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.conduct.visible
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Records and supervision
+  - id: a2.records.handbook
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.records.kept
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Training and exercises
+  - id: a2.train.initial
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.train.ct
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.train.exercise
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  # Spectator service and private-security law
+  - id: a2.svc.welcome
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+  - id: a2.svc.law
+    status: ""
+    confidence: ""
+    change: ""
+    evidence: []
+    note: ""
+gaps: []
+# gaps become survey questions:
+#   - indicator: a1.gov.committee
+#     question: ""

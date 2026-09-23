@@ -30,12 +30,16 @@ Country representatives receive a prepared brief and are asked to confirm it, co
 
 ## Codebook
 
-Annex 1 and Annex 2 are the source of the topics. The codebook has two levels.
+The codebook is version 1: [`codebook/codebook.md`](codebook/codebook.md), generated from [`codebook/codebook.yaml`](codebook/codebook.yaml). It has 16 clusters and 58 indicators, taken from Annex 1 and Annex 2.
 
-- A **cluster** is a heading in the country brief and in the survey. Clusters follow the main blocks of the two annexes: governance, safety duties, certification, venue infrastructure, emergency planning, the safety service, access and inclusion, policing and exclusion, supporter dialogue and service, illustrative criminal offences, and the stewarding blocks in Annex 2 (status, duties, conduct, records, training, supporter-facing roles).
-- An **indicator** is one distinct duty inside a cluster, small enough that a search can hit it or miss it. Certification, for example, splits into a required certificate, a named authority, inspection powers, and sanctions, rather than one yes-or-no for the whole annex.
+- A **cluster** is a heading in the country brief and in the survey.
+- An **indicator** is one duty inside a cluster. Certification, for example, is five indicators: a required certificate, a named authority, a safe capacity, inspection, and enforcement.
 
-Related articles are grouped into one indicator. The article numbers remain on the indicator as a pointer back to the recommendation. The first sketch of cluster headings is in [`background/first-topic-list.md`](background/first-topic-list.md). That file is background only. The country table in it is the original sketch and is left unchanged.
+Article numbers on each cluster point back to the recommendation. The appendix of criminal offences is illustrative: those indicators are met when the conduct is punishable under national law, including under general criminal law.
+
+A survey question is asked for an indicator when the finding is `partial`, `not_found`, or low confidence. A cluster that is `met` at high confidence is one confirmation.
+
+The first sketch of headings is in [`background/first-topic-list.md`](background/first-topic-list.md). That file is background only. The country table in it is the original sketch and is left unchanged.
 
 ## How a country is judged
 
@@ -78,38 +82,33 @@ The cross-country product is a map: by indicator, how many countries are `met`, 
 
 ## How the work proceeds
 
-1. **Codebook v1.** Write the clusters and indicators from Annex 1 and Annex 2, with the national-language search terms left blank until a country file needs them.
-2. **Pilot.** Run the full protocol, the brief, and a draft survey on two countries. Revise the codebook where an indicator was too wide to judge or too narrow to be worth a question.
-3. **Desk review.** One assessment file and one brief per remaining country, using the revised codebook.
+1. **Codebook v1.** In place. Revise an indicator only when a pilot shows it is too wide to judge or too narrow to be worth a question.
+2. **Pilot.** Run the full protocol and draft the survey questions on two countries. The first is the United Kingdom, because the stadium-safety legislation is published in English. The file will keep England and Wales, Scotland, and Northern Ireland distinct where their regimes differ. The second is a State Party with little of the framework available in English, chosen when the party list is taken from the treaty chart, so an empty search is tested as well.
+3. **Desk review.** One country file per remaining State Party, copied from [`countries/_template.yaml`](countries/_template.yaml).
 4. **Survey.** Send the pre-filled questions. File the replies against the same indicators.
 5. **Overview.** Update the assessments from the replies and write the cross-country map.
 
-The pilot is what makes the later survey short. Indicators that cannot be judged from real documents get rewritten before anyone is asked to answer them.
+The working audience is the people carrying out the review. Country briefs are written so they can be sent on to a country representative. The overview stays in this repository.
+
+A finding based on a text the reviewer cannot read is recorded at low confidence. Country-representative names and emails are not part of the desk review. The survey tool can be chosen when the pilot questions exist. The questions are drafted here either way.
 
 ## Rules in force
 
-These are the project rules. Change them before the first country assessment if they should be different.
-
-- **Scope.** States Parties to CETS No. 218. The country list is a dated snapshot of the treaty chart, frozen when the codebook is first used. At its meeting of 3–4 June 2025 the Committee welcomed Serbia as the 31st State Party; the snapshot for this review will be taken from the chart at the time the list is frozen, not from that meeting note.
+- **Scope.** States Parties to CETS No. 218. The country list is a dated snapshot of the [treaty chart](https://www.coe.int/en/web/conventions/full-list/-/conventions/treaty/218), taken when the second pilot is chosen. At its meeting of 3–4 June 2025 the Committee welcomed Serbia as the 31st State Party. The snapshot for this review is taken from the chart, not from that meeting note.
 - **Cut-off.** 1 September 2022, the date the Committee adopted the recommendation.
 - **Scale and instruments.** The status, confidence, and change fields above.
-- **Storage.** Citations, links, and short paraphrases. Officials’ contact details are stored only if this repository is an acceptable place for them.
-
-## What has to be in place before the first country file
-
-The method can run as soon as the following are settled. Nothing else needs to be installed. This repository is the working system.
-
-1. **Confirm the scope, the cut-off, and the judgement rules**, or say what to change.
-2. **Name the audience** for the overview and the country briefs, and say whether those documents can live in this repository.
-3. **Name two pilot countries**, and say which languages the people doing the desk review can read. The pilot should include one country whose stadium-safety instruments are already easy to find in a language the reviewer reads, and one where the material is likely to be thinner, so an empty search and the survey questions are tested as well.
-4. **Say who may be named.** Country-representative names and emails can wait until the survey. The desk review does not need them.
-5. **Choose the survey tool** the organisation is allowed to use, before the survey is sent. The questions are drafted here either way.
+- **Storage.** Citations, links, and short paraphrases. Contact details of officials are left out of the country files.
 
 ## Status
 
-The recommendation text is in [`sources/`](sources/). The codebook, the search log, and the country files are not started. No country has been assessed in this repository.
+Codebook v1 is in [`codebook/`](codebook/). The country template is [`countries/_template.yaml`](countries/_template.yaml). No country has been assessed yet.
 
 ```
+codebook/
+  codebook.yaml
+  codebook.md
+countries/
+  _template.yaml
 sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
 background/

@@ -1,0 +1,222 @@
+# Codebook v1 for the Rec(2022)2 national uptake review.
+# Readable copy: codebook.md. Country files use these indicator ids.
+# Survey questions are asked per indicator only where the assessment is partial,
+# not_found, or low confidence. A cluster that is met at high confidence is one
+# confirmation, not one question per indicator.
+version: 1
+adopted: 2022-09-01
+source: sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
+clusters:
+  - id: a1.governance
+    annex: 1
+    title: National governance and coordination
+    articles: "5–7"
+    indicators:
+      - id: a1.gov.committee
+        duty: A named national body coordinates safety, security and service at football matches and other sports events.
+      - id: a1.gov.local
+        duty: Regional or local multi-agency coordination is required for events.
+      - id: a1.gov.strategy
+        duty: A national strategy covers safety, security and service and is kept under review.
+      - id: a1.gov.roles
+        duty: The framework states the roles of the public authorities, the organiser, and the venue.
+
+  - id: a1.safety
+    annex: 1
+    title: Venue safety duties
+    articles: "8–10, 30–33"
+    indicators:
+      - id: a1.safety.integrated
+        duty: An integrated approach to safety, security and service is required, inside and outside the venue.
+      - id: a1.safety.operator
+        duty: The venue operator or organiser has explicit safety duties.
+      - id: a1.safety.officer
+        duty: A safety officer, or an equivalent post, is responsible for safety at the venue.
+      - id: a1.safety.regulations
+        duty: Venue regulations set spectator behaviour and are a condition of entry.
+
+  - id: a1.certification
+    annex: 1
+    title: Safety certification and licensing
+    articles: "11–20"
+    indicators:
+      - id: a1.cert.required
+        duty: A safety certificate or equivalent licence is required before designated events can be held.
+      - id: a1.cert.authority
+        duty: A public authority issues the certificate and can refuse or withdraw it.
+      - id: a1.cert.capacity
+        duty: The certificate sets a safe capacity.
+      - id: a1.cert.inspect
+        duty: The authority can inspect the venue.
+      - id: a1.cert.enforce
+        duty: Breach of the certificate can be enforced by notice, suspension, or a penalty.
+
+  - id: a1.venue
+    annex: 1
+    title: Venue infrastructure and operations
+    articles: "21–24, 31–33"
+    indicators:
+      - id: a1.venue.infrastructure
+        duty: Physical infrastructure is regulated, including spectator areas, access routes, and parking where the venue has it.
+      - id: a1.venue.segregation
+        duty: Seating and, where used, separation of supporters are regulated.
+      - id: a1.venue.cctv
+        duty: CCTV or an equivalent surveillance system is required at designated venues.
+      - id: a1.venue.operations
+        duty: The operator keeps operational arrangements and can communicate with the police and the emergency services.
+
+  - id: a1.emergency
+    annex: 1
+    title: Emergency and contingency planning
+    articles: "25–29"
+    indicators:
+      - id: a1.emerg.plan
+        duty: An emergency plan is required.
+      - id: a1.emerg.contingency
+        duty: A contingency plan is required for foreseeable disruptions.
+      - id: a1.emerg.evacuation
+        duty: Evacuation arrangements are required.
+      - id: a1.emerg.exercise
+        duty: Emergency and contingency plans are tested in exercises.
+
+  - id: a1.safetyservice
+    annex: 1
+    title: Venue safety service
+    articles: "34–37"
+    note: Steward qualifications, powers, and training are assessed under Annex 2. These indicators ask only whether the law requires the service.
+    indicators:
+      - id: a1.svc.required
+        duty: The law requires a venue safety service for designated events.
+      - id: a1.svc.stewards
+        duty: Stewards form part of that service and work under the safety officer.
+      - id: a1.svc.volunteers
+        duty: Any use of volunteers in the safety service is defined and limited.
+
+  - id: a1.access
+    annex: 1
+    title: Access, tickets and exclusion from the venue
+    articles: "38–47"
+    indicators:
+      - id: a1.access.inclusion
+        duty: Access for persons with disabilities is required.
+      - id: a1.access.tickets
+        duty: Ticket issue and sale are regulated, including unauthorised and counterfeit tickets.
+      - id: a1.access.prohibited
+        duty: Prohibited items and behaviour inside the venue are defined.
+      - id: a1.access.search
+        duty: Searches or inspections at entry are authorised.
+      - id: a1.access.expel
+        duty: Staff may refuse entry or expel a spectator, and the consequences of refusing to leave are set out.
+
+  - id: a1.policing
+    annex: 1
+    title: Policing, risk and exclusion
+    articles: "48–62, 66–68"
+    indicators:
+      - id: a1.police.role
+        duty: Police responsibilities at events are defined and coordinated with the organiser.
+      - id: a1.police.risk
+        duty: Supporters may be categorised by risk, with safeguards on how that categorisation is used.
+      - id: a1.police.ban
+        duty: A court or other competent authority may impose a banning order. Record any travel restriction separately in the note.
+      - id: a1.police.database
+        duty: A database of banned persons is kept and used by the relevant authorities.
+      - id: a1.police.nfip
+        duty: A national football information point, or a national sports information point, exists and can exchange police information internationally.
+
+  - id: a1.dialogue
+    annex: 1
+    title: Service, dialogue and inclusion
+    articles: "69–80"
+    indicators:
+      - id: a1.dial.dialogue
+        duty: Supporter dialogue is part of the arrangements, through a strategy, a charter, or an equivalent duty.
+      - id: a1.dial.slo
+        duty: A supporter liaison function is provided.
+      - id: a1.dial.dao
+        duty: A disability access function is provided.
+      - id: a1.dial.discrimination
+        duty: Hate speech and discrimination at events are specifically addressed.
+      - id: a1.dial.projects
+        duty: Fan projects, fan embassies, or community engagement form part of the service approach.
+
+  - id: a1.offences
+    annex: 1
+    title: Sports-event offences
+    articles: Appendix
+    note: The appendix is a set of examples. An indicator is met when the conduct is punishable under national law, including through general criminal law. The national text does not have to copy the appendix.
+    indicators:
+      - id: a1.off.conduct
+        duty: Violence, disorder, throwing objects, and pitch invasion in connection with a sports event are offences.
+      - id: a1.off.staff
+        duty: Offences are aggravated, or separately provided, when committed against players, match officials, stewards, or other event staff.
+
+  - id: a2.status
+    annex: 2
+    title: Steward status and authorisation
+    articles: "1, 6, 8, 11, Appendix 2"
+    indicators:
+      - id: a2.status.defined
+        duty: A steward is defined as qualified safety staff of the organiser or of a contracted provider, and is distinct from the police.
+      - id: a2.status.qualified
+        duty: A person may act as a steward only with a qualification, licence, or professional authorisation.
+      - id: a2.status.vetting
+        duty: Recruitment includes a criminal-record or character check.
+      - id: a2.status.provider
+        duty: An in-house stewarding operation or a private provider must be authorised to recruit, train, and deploy stewards.
+
+  - id: a2.duties
+    annex: 2
+    title: Steward duties and powers
+    articles: "2–4, 9"
+    indicators:
+      - id: a2.duty.crowd
+        duty: Duties include crowd management, entry and exit control, and ticket checks.
+      - id: a2.duty.powers
+        duty: Any power to search, detain, or expel exists only where national law gives it, and is distinguished from police powers.
+      - id: a2.duty.emergency
+        duty: Duties include raising the alarm, basic first aid, and assisting the emergency services.
+      - id: a2.duty.police
+        duty: Where police are deployed, steward and police roles are agreed in advance.
+
+  - id: a2.conduct
+    annex: 2
+    title: Conduct and visibility
+    articles: "5, 12"
+    indicators:
+      - id: a2.conduct.code
+        duty: A written code of conduct covers courtesy, neutrality, and a prohibition on discriminatory behaviour.
+      - id: a2.conduct.visible
+        duty: Stewards wear high-visibility identification carrying a unique number.
+
+  - id: a2.records
+    annex: 2
+    title: Records and supervision
+    articles: "13, 15"
+    indicators:
+      - id: a2.records.handbook
+        duty: Stewards receive their duties in writing, including emergency and contingency arrangements.
+      - id: a2.records.kept
+        duty: Training, vetting, and deployment records are kept and can be inspected by the certifying authority.
+
+  - id: a2.training
+    annex: 2
+    title: Training and exercises
+    articles: "8, 10, 14, Appendix 1"
+    indicators:
+      - id: a2.train.initial
+        duty: Initial training is completed before deployment and covers crowd safety, evacuation, first aid, and fire safety.
+      - id: a2.train.ct
+        duty: Training covers counter-terrorism awareness and discriminatory or anti-social behaviour.
+      - id: a2.train.exercise
+        duty: Exercises of emergency and contingency plans are held and recorded.
+
+  - id: a2.service
+    annex: 2
+    title: Spectator service and private-security law
+    articles: "3, 4, 7, 16"
+    indicators:
+      - id: a2.svc.welcome
+        duty: Stewards have a spectator-welcome role, including support for disabled spectators and a way to report discrimination.
+      - id: a2.svc.law
+        duty: Steward training and deployment sit under the national private-security regime, or under a dedicated stewarding regime that states how the two fit together.
