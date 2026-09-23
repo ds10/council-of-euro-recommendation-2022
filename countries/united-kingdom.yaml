@@ -1,0 +1,448 @@
+# Working record for the United Kingdom review.
+# Read countries/united-kingdom.md. This file repeats those judgements for later comparison.
+country:
+  name: "United Kingdom"
+  code: GB
+  party_status: party
+  party_status_as_of: 2026-09-23
+  party_status_note: Ratified 31 October 2023. In force for the United Kingdom on 1 December 2023, from the UK treaty series and the SGSA page. The Council of Europe treaty chart was not re-downloaded in this pass.
+  assessed_at: 2026-09-23
+  languages_read:
+    - en
+  jurisdictions:
+    - England and Wales
+    - Scotland
+    - Northern Ireland
+searches:
+  - id: s1
+    source_family: gazette
+    query: 'Safety of Sports Grounds Act 1975; 1987 Act; Northern Ireland Order 2006; Justice Act (Northern Ireland) 2011; Unauthorised Entry to Football Matches Act 2026; Designation Amendment Order 2025; Football Governance Act 2025 Schedule 4'
+    date: 2026-09-23
+    outcome: hit
+    url: 'https://www.legislation.gov.uk/'
+    note: ""
+  - id: s2
+    source_family: licensing
+    query: 'SGSA legislation, Saint-Denis page, stewarding factsheet 1, SIA exemption guidance'
+    date: 2026-09-23
+    outcome: hit
+    url: 'https://sgsa.org.uk/regulatory-support/legislation/'
+    note: ""
+  - id: s3
+    source_family: police
+    query: 'UKFPU page on GOV.UK; CPS football banning order guidance; Home Office written answer 18 October 2024'
+    date: 2026-09-23
+    outcome: hit
+    url: 'https://www.gov.uk/government/groups/united-kingdom-football-policing-unit-ukfpu'
+    note: ""
+  - id: s4
+    source_family: sport_ministry
+    query: 'Sport NI safety at sports grounds; Scottish Government news on football banning orders'
+    date: 2026-09-23
+    outcome: hit
+    url: 'https://www.sportni.net/facilities/safety-at-sports-grounds/'
+    note: ""
+  - id: s5
+    source_family: football_association
+    query: 'FA, Scottish FA and Irish FA rulebooks'
+    date: 2026-09-23
+    outcome: none
+    url: ''
+    note: ""
+  - id: s6
+    source_family: nfip
+    query: 'UKFPU described as the UK national football information point on GOV.UK. NPCC replacement page not opened.'
+    date: 2026-09-23
+    outcome: hit
+    url: 'https://www.gov.uk/government/groups/united-kingdom-football-policing-unit-ukfpu'
+    note: ""
+  - id: s7
+    source_family: citation
+    query: 'Rec(2022)2 and the recommendation title on GOV.UK and sgsa.org.uk'
+    date: 2026-09-23
+    outcome: none
+    url: 'https://sgsa.org.uk/regulatory-support/saint-denis-convention/'
+    note: ""
+evidence:
+  - id: e-review
+    title: "See the source list in countries/united-kingdom.md"
+    citation: ""
+    url: countries/united-kingdom.md
+    instrument_date: ""
+    language: en
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "The readable review holds the citations. No source checked cites Rec(2022)2."
+indicators:
+  - id: a1.gov.committee
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "SGSA oversees football safety certification in England and Wales. UKFPU coordinates football policing. No single body for safety, security and service."
+  - id: a1.gov.local
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Councils issue certificates. A certificate or prohibition notice cannot require police without the chief officer's agreement. Safety advisory groups are usual practice; a statute requiring that name was not read."
+  - id: a1.gov.strategy
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No published national strategy found. The Saint-Denis Convention has been in force for the UK since 1 December 2023."
+  - id: a1.gov.roles
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Roles are split across the 1975 Act, the SGSA licence in England and Wales, and UKFPU."
+  - id: a1.safety.integrated
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "SGSA factsheet of 1 August 2023 describes the Council of Europe integrated approach. It is guidance. The convention has been in force since 1 December 2023."
+  - id: a1.safety.operator
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Health and Safety at Work etc. Act 1974, as described by SGSA. Sport NI places first responsibility on owners and operators."
+  - id: a1.safety.officer
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Described in SGSA factsheet 1 and the Green Guide. Not read as a section of an Act."
+  - id: a1.safety.regulations
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "1985 Act bans alcohol in sight of the pitch, and fireworks and flares, at designated football. A statute requiring ground regulations was not read."
+  - id: a1.cert.required
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "1975 Act for designated grounds; 1987 Act for regulated stands; Northern Ireland Order 2006. SGSA licence is additional for designated football in England and Wales."
+  - id: a1.cert.authority
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Local authorities in Britain; district councils in Northern Ireland. SGSA can refuse the football licence in England and Wales."
+  - id: a1.cert.capacity
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Sport NI states that the Northern Ireland certificate sets a safe capacity. Certificate terms do this under the 1975 Act."
+  - id: a1.cert.inspect
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Sport NI: district councils inspect designated grounds at least every 12 months. Local authorities enforce in Britain."
+  - id: a1.cert.enforce
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Admitting spectators without a certificate, or in breach of it, is an offence. Prohibition notices can restrict admission."
+  - id: a1.venue.infrastructure
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Certificates can require alterations. Detailed physical standards sit mainly in the Green Guide."
+  - id: a1.venue.segregation
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "All-seater and separation arrangements are part of SGSA licensing for designated football in England and Wales. Not confirmed for Scotland or Northern Ireland in this pass."
+  - id: a1.venue.cctv
+    status: partial
+    confidence: low
+    change: unchanged
+    evidence: [e-review]
+    note: "Factsheet 1 describes CCTV as a typical safety system. A legal requirement was not read."
+  - id: a1.venue.operations
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "SGSA told a parliamentary committee that football venues have operations manuals covering stewarding, evacuation and medical provision."
+  - id: a1.emerg.plan
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Fire Safety Order 2005 requires recorded fire arrangements in England and Wales. A single all-hazard emergency-plan duty was not read."
+  - id: a1.emerg.contingency
+    status: partial
+    confidence: low
+    change: unchanged
+    evidence: [e-review]
+    note: "Described as part of operations-manual practice. Not read as a named statutory duty."
+  - id: a1.emerg.evacuation
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Covered through fire-safety duties and certificate practice."
+  - id: a1.emerg.exercise
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No instrument read that requires a recorded exercise."
+  - id: a1.svc.required
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Factsheets and certificate practice describe a safety structure. A UK-wide statutory safety service was not read."
+  - id: a1.svc.stewards
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Factsheets place stewards under a safety officer. From 30 June 2023, SGSA-licensed grounds must have certificate conditions on in-house steward training and vetting."
+  - id: a1.svc.volunteers
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No rule found that defines and limits volunteers in the safety service."
+  - id: a1.access.inclusion
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Equality Act reasonable adjustments, Accessible Stadia guidance, and a Premier League disability access officer rule reported by the EHRC."
+  - id: a1.access.tickets
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Unauthorised Entry to Football Matches Act 2026, in force 22 March 2026, England and Wales. Older touting law was not re-read. The Act does not extend to Scotland or Northern Ireland."
+  - id: a1.access.prohibited
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "1985 Act and Football (Offences) Act 1991 at designated football matches."
+  - id: a1.access.search
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Searching is a licensable activity under the Private Security Industry Act 2001."
+  - id: a1.access.expel
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Refusal of entry and ejection are licensable activities. A single set of consequences for refusing to leave was not read."
+  - id: a1.police.role
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "UKFPU coordinates national football policing and moved from the Home Office to the NPCC in April 2023. Policing is devolved in Scotland and Northern Ireland."
+  - id: a1.police.risk
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "Dedicated football officers and intelligence are described. A statutory risk-categorisation scheme with safeguards was not read."
+  - id: a1.police.ban
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Football Spectators Act 1989, including passport surrender in a control period. Scotland: 2006 Act. Northern Ireland: Justice Act 2011. The 2026 Act adds a trigger offence in England and Wales."
+  - id: a1.police.database
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "CPS guidance: the Football Banning Orders Authority keeps the central register for England and Wales. Scotland and Northern Ireland were not read."
+  - id: a1.police.nfip
+    status: met
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "GOV.UK states that UKFPU is the UK national football information point. That page was frozen after April 2023."
+  - id: a1.dial.dialogue
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Football Governance Act 2025, Schedule 4 paragraph 4, requires fan consultation for clubs licensed under that Act, including match-day issues."
+  - id: a1.dial.slo
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "EHRC report describes supporter liaison officers at Premier League clubs. A universal legal duty was not read."
+  - id: a1.dial.dao
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "EHRC report says Premier League rules require a disability access officer. The rulebook was not opened."
+  - id: a1.dial.discrimination
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Football (Offences) Act 1991 in England and Wales. Offensive chanting in the Justice Act (Northern Ireland) 2011. Scotland relies on general criminal law after the 2012 Act was repealed in 2018."
+  - id: a1.dial.projects
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No legal duty to run fan embassies or fan projects was found."
+  - id: a1.off.conduct
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "1991 Act offences, the 1985 Act, and from 22 March 2026 the unauthorised-entry offence in England and Wales."
+  - id: a1.off.staff
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Assault is a general criminal offence. A sports-specific aggravation for attacks on stewards was not found."
+  - id: a2.status.defined
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "SGSA factsheets describe stewards as venue safety staff, distinct from the police. Guidance."
+  - id: a2.status.qualified
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "SIA licence for contract staff doing licensable work. In-house stewards at certified grounds are exempt if trained and vetted. SGSA directed certificate conditions by 30 June 2023."
+  - id: a2.status.vetting
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "The same certificate conditions require vetting equivalent to an SIA licence holder, at SGSA-licensed grounds."
+  - id: a2.status.provider
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Contract providers of licensable staff sit in the SIA regime. No separate licence to run an in-house stewarding body was found."
+  - id: a2.duty.crowd
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Described in SGSA factsheets and the Green Guide."
+  - id: a2.duty.powers
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Search and ejection are licensable activities under the 2001 Act and are distinct from police powers."
+  - id: a2.duty.emergency
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Factsheets and the qualification route cover emergency assistance and first aid."
+  - id: a2.duty.police
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "The chief officer determines policing that a certificate may require. A required written statement of intent was not read."
+  - id: a2.conduct.code
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No legally required stewards' code of conduct was found."
+  - id: a2.conduct.visible
+    status: not_found
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "High-visibility identification with a unique number was not found as a legal requirement."
+  - id: a2.records.handbook
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "A required safety handbook was not found. Briefing is described in a factsheet."
+  - id: a2.records.kept
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "The 2023 certificate conditions require training and vetting to be kept up to date, so the club must be able to show those records."
+  - id: a2.train.initial
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Level 2 spectator safety within 12 months, and conflict-management and physical-intervention training before unaccompanied intervention, for in-house licensable stewards at SGSA-licensed grounds."
+  - id: a2.train.ct
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Counter-terrorism and discrimination content was not read in the training conditions."
+  - id: a2.train.exercise
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No requirement for a recorded emergency exercise was found."
+  - id: a2.svc.welcome
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Factsheets describe non-safety-critical service roles. A legal duty to support disabled spectators and receive discrimination reports was not read."
+  - id: a2.svc.law
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Private Security Industry Act 2001, section 4(6), is the regime and states the in-house sports-ground exemption."
+gaps:
+  - indicator: a1.gov.strategy
+    question: "Is there a published strategy on safety, security and service, for the UK or any of the three jurisdictions, and is it reviewed?"
+  - indicator: a1.safety.officer
+    question: "Is a safety officer a condition of the safety certificate in England and Wales, Scotland, and Northern Ireland?"
+  - indicator: a2.status.qualified
+    question: "Do Scottish and Northern Ireland certificates require the same Level 2 qualification and vetting for in-house stewards as the SGSA directed in England and Wales?"
+  - indicator: a1.svc.volunteers
+    question: "Are volunteer stewards allowed in the safety role, and is their training defined?"
+  - indicator: a1.venue.cctv
+    question: "Is CCTV a condition of the certificate at designated grounds?"
+  - indicator: a1.emerg.exercise
+    question: "Do certificates require a contingency plan and a recorded exercise, and how often?"
+  - indicator: a1.police.risk
+    question: "Is there a written policy for categorising supporters by risk, and what safeguards does it contain?"
+  - indicator: a1.dial.slo
+    question: "Which competitions require a supporter liaison officer and a disability access officer, beyond the Premier League?"
+  - indicator: a2.conduct.code
+    question: "Is a stewards' code of conduct, and high-visibility numbering, a certificate condition or only guidance?"
+  - indicator: a1.police.ban
+    question: "Has the Scottish Government's proposed widening of football banning orders been enacted?"
+  - indicator: citation-search
+    question: "Does any UK instrument cite Recommendation Rec(2022)2?"
