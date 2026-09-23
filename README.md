@@ -1,5 +1,7 @@
 # National uptake of Recommendation Rec(2022)2
 
+**Start with the [United Kingdom review](countries/united-kingdom.md).** It is the first completed country file. Read it from the top. The topic sections are the findings. The table at the end is the same findings, one line per duty.
+
 This repository is the review of how far countries have reflected [Recommendation Rec(2022)2](sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf) in national legal, regulatory, and administrative frameworks, and what has changed since it was adopted.
 
 The recommendation was adopted by the Committee on Safety and Security at Sports Events (T-S4, the Saint-Denis Committee) by written procedure on **1 September 2022**. The English text is dated Strasbourg, 5 October 2022. It is addressed to governments of Parties to the Council of Europe Convention on an Integrated Safety, Security and Service Approach at Football Matches and Other Sports Events (CETS No. 218, the Saint-Denis Convention).
@@ -83,7 +85,7 @@ The cross-country product is a map: by indicator, how many countries are `met`, 
 ## How the work proceeds
 
 1. **Codebook v1.** In place. Revise an indicator only when a pilot shows it is too wide to judge or too narrow to be worth a question.
-2. **Pilot.** Run the full protocol and draft the survey questions on two countries. The first is the United Kingdom, because the stadium-safety legislation is published in English. The file will keep England and Wales, Scotland, and Northern Ireland distinct where their regimes differ. The second is a State Party with little of the framework available in English, chosen when the party list is taken from the treaty chart, so an empty search is tested as well.
+2. **Pilot.** The United Kingdom review is written. England and Wales, Scotland, and Northern Ireland are kept distinct where their regimes differ. The second pilot is a State Party with little of the framework available in English, chosen when the party list is taken from the treaty chart, so an empty search is tested as well.
 3. **Desk review.** One country file per remaining State Party, copied from [`countries/_template.yaml`](countries/_template.yaml).
 4. **Survey.** Send the pre-filled questions. File the replies against the same indicators.
 5. **Overview.** Update the assessments from the replies and write the cross-country map.
@@ -101,13 +103,15 @@ A finding based on a text the reviewer cannot read is recorded at low confidence
 
 ## Status
 
-Codebook v1 is in [`codebook/`](codebook/). The country template is [`countries/_template.yaml`](countries/_template.yaml). No country has been assessed yet.
+Codebook v1 is in [`codebook/`](codebook/). The [United Kingdom review](countries/united-kingdom.md) is the first assessment. The country template for the next file is [`countries/_template.yaml`](countries/_template.yaml).
 
 ```
 codebook/
   codebook.yaml
   codebook.md
 countries/
+  united-kingdom.md    the review to read
+  united-kingdom.yaml  the same judgements, in the working record
   _template.yaml
 sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
