@@ -171,7 +171,7 @@ These are the points this review could not close. They are the survey, pre-fille
 | Safety service required | met | high | unchanged | Land Ordnungsdienst; BL Ordner |
 | Stewards under a safety officer | met | high | amended | Ordnerrichtlinien 2026; Einsatzleiter under Sicherheitsverantwortlicher |
 | Volunteers limited | partial | medium | unknown | Contract/mandate required; no volunteer policy text found |
-| Disability access required | partial | medium | amended | Wheelchair places in Stadionbestimmungen; Vienna concept; no DAO post |
+| Disability access required | partial | medium | amended | Wheelchair places in Stadionbestimmungen; Vienna concept; Behindertenbeauftragter B-criterion |
 | Tickets regulated | partial | high | unchanged | BL ticketing and segregation rules; no UK-style entry offence found |
 | Prohibited items and behaviour | met | high | amended | BL § 13; ÖFB lists; StVAG § 5 |
 | Searches authorised | met | high | amended | Ordnerrichtlinien § 7; SPG § 41 as amended 2024 for police searches |
