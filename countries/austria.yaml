@@ -1,0 +1,558 @@
+# Working record for the Austria review.
+# Read countries/austria.md. This file repeats those judgements for later comparison.
+country:
+  name: "Austria"
+  code: AT
+  party_status: party
+  party_status_as_of: 2026-09-25
+  party_status_note: "Signed 22 February 2017. Ratified 3 September 2021. In force for Austria on 1 October 2021 (CoE country profile; BMI accession notice; BGBl. III Nr. 124/2021)."
+  assessed_at: 2026-09-25
+  languages_read:
+    - de
+    - en
+  jurisdictions:
+    - Federal
+    - Vienna
+    - Styria
+    - Upper Austria (venue-permit practice)
+searches:
+  - id: s1
+    source_family: gazette
+    query: "SPG §§ 49a–49c; BGBl. I Nr. 122/2024; BGBl. III Nr. 124/2021; GewO § 129; Wiener VG § 31; StVAG § 5; Oö. Veranstaltungsstättenbewilligung"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://www.ris.bka.gv.at/"
+    note: "Federal police and trade law plus selected Land event laws. Not every Land Veranstaltungsgesetz was opened."
+  - id: s2
+    source_family: police
+    query: "BMI Referat II/BPD/5/b NFIS; Saint-Denis accession; Forum Sicherheit im Sport"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://www.bmi.gv.at/113/sektion_ii/gruppe_ii_bpd/abteilung_ii_bpd_5/referat_ii_bpd_5_b.html"
+    note: ""
+  - id: s3
+    source_family: licensing
+    query: "Veranstaltungsstättenbewilligung; WKO Oö. summary; LVwG Upper Austria football stadium case"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://www.wko.at/ooe/tourismus-freizeitwirtschaft/kino-kultur-vergnuegungsbetriebe/veranstaltungsstaetten-stand-2026.pdf"
+    note: ""
+  - id: s4
+    source_family: sport_ministry
+    query: "EU-Jahresvorschau 2025 Balance S4 Saint-Denis"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://www.parlament.gv.at/dokument/XXVIII/III/151/imfname_1677388.pdf"
+    note: "Project cooperation noted; not a new statute."
+  - id: s5
+    source_family: football_association
+    query: "BL Sicherheitsrichtlinien 2024; Ordnerrichtlinien 2026; Stadionbestimmungen 2025; ÖFB Stadionverbotsordnung 2021"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://cdn.bundesliga.at/"
+    note: ""
+  - id: s6
+    source_family: nfip
+    query: "Nationale Fußballinformationsstelle NFIS BMI"
+    date: 2026-09-25
+    outcome: hit
+    url: "https://www.bmi.gv.at/113/sektion_ii/gruppe_ii_bpd/abteilung_ii_bpd_5/referat_ii_bpd_5_b.html"
+    note: ""
+  - id: s7
+    source_family: citation
+    query: "Rec(2022)2 / Empfehlung Rec(2022)2 on BMI, RIS, ÖFB, Bundesliga"
+    date: 2026-09-25
+    outcome: none
+    url: "https://www.bmi.gv.at/"
+    note: "Convention and Saint-Denis language found. Rec(2022)2 not cited by name."
+evidence:
+  - id: e-review
+    title: "See the source list in countries/austria.md"
+    citation: ""
+    url: countries/austria.md
+    instrument_date: ""
+    language: de
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "The readable review holds the citations. No source checked cites Rec(2022)2."
+  - id: e-spg
+    title: "Sicherheitspolizeigesetz §§ 49a–49c"
+    citation: "SPG"
+    url: "https://www.jusline.at/gesetz/spg/paragraf/49a"
+    instrument_date: "2016-08-01"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Sicherheitsbereich, Betretungsverbot, Gefährderansprache, Meldeauflage for Sportgroßveranstaltungen."
+  - id: e-spg-2024
+    title: "SPG Novelle BGBl. I Nr. 122/2024"
+    citation: "BGBl. I Nr. 122/2024"
+    url: "https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2024_I_122/BGBLA_2024_I_122.html"
+    instrument_date: "2024-07-22"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Widens special search orders at events and vulnerable facilities; refusal can bar entry."
+  - id: e-convention
+    title: "Saint-Denis Convention in Austrian law"
+    citation: "BGBl. III Nr. 124/2021"
+    url: "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011650"
+    instrument_date: "2021-10-01"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Convention in force for Austria from 1 October 2021."
+  - id: e-nfis
+    title: "BMI Nationale Fußballinformationsstelle"
+    citation: "Referat II/BPD/5/b"
+    url: "https://www.bmi.gv.at/113/sektion_ii/gruppe_ii_bpd/abteilung_ii_bpd_5/referat_ii_bpd_5_b.html"
+    instrument_date: "2026-08-19"
+    language: de
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "NFIS tasks including fan database and sports-event public-safety concepts."
+  - id: e-wien
+    title: "Wiener Veranstaltungsgesetz 2020 § 31"
+    citation: "Wr. VG § 31"
+    url: "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrW&Gesetzesnummer=20000607&Paragraf=31"
+    instrument_date: "2020-12-01"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Sicherheitskonzept for events over 5,000 (Ordnungsdienst, evacuation, disability)."
+  - id: e-stmk
+    title: "Steiermärkisches Veranstaltungsgesetz 2012 § 5"
+    citation: "StVAG § 5"
+    url: "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=LrStmk&Gesetzesnummer=20000296&Paragraf=5"
+    instrument_date: "2012-11-01"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Ordnerdienst, segregation, refusal of entry for high-risk stadium events."
+  - id: e-bl-sicherheit
+    title: "BL Sicherheitsrichtlinien highest division"
+    citation: "ÖFBL Sicherheitsrichtlinien"
+    url: "https://cdn.bundesliga.at/downloads/2024-09-16/BL1-Sicherheitsrichtlinien-ab-01072024_final.pdf"
+    instrument_date: "2024-07-01"
+    language: de
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Binding match-day safety, house rules, Fanbeauftragter, segregation, prohibited items."
+  - id: e-bl-ordner
+    title: "BL Ordnerrichtlinien"
+    citation: "ÖFBL Ordnerrichtlinien"
+    url: "https://cdn.bundesliga.at/website_content/2026-06-17/BL1-Ordnerrichtlinie_ab%2001072026.pdf"
+    instrument_date: "2026-07-01"
+    language: de
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Steward training, powers, visibility, chain of command for highest division."
+  - id: e-bl-stadion
+    title: "BL Stadionbestimmungen"
+    citation: "ÖFBL Stadionbestimmungen"
+    url: "https://cdn.bundesliga.at/downloads/2025-07-03/BL1-Stadionbestimmungen_ab%2001072025_final.pdf"
+    instrument_date: "2025-07-01"
+    language: de
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Venue permit proof, CCTV, evacuation tests, segregation, wheelchair places."
+  - id: e-oefb-ban
+    title: "ÖFB Stadionverbotsordnung"
+    citation: "ÖFB Stadionverbotsordnung"
+    url: "https://www.oefb.at/oefb/OeFB-Stadionverbotsordnung-gueltig-ab-1-7-2021-EF.pdf"
+    instrument_date: "2021-07-01"
+    language: de
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Nationwide private-law stadium bans; shared ban list with BMI."
+  - id: e-gewo
+    title: "Gewerbeordnung 1994 § 129"
+    citation: "GewO § 129"
+    url: "https://www.jusline.at/gesetz/gewo/paragraf/129"
+    instrument_date: "2025-01-01"
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Bewachungsgewerbe includes Ordner- und Kontrolldienste bei Veranstaltungen."
+indicators:
+  - id: a1.gov.committee
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-nfis, e-review]
+    note: "NFIS/BMI coordinates the police pillar. Venue safety is Land and association. No single body for safety, security and service."
+  - id: a1.gov.local
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-wien, e-stmk, e-bl-sicherheit]
+    note: "Land Ordnungsdienst/Sicherheitskonzept; BL Krisenkontaktgruppe and Sicherheitsrundgang."
+  - id: a1.gov.strategy
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-convention, e-review]
+    note: "Convention in force. BMI platform Sicherheit und Sport announced Sept 2022 but not opened."
+  - id: a1.gov.roles
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-spg, e-stmk, e-bl-sicherheit]
+    note: "Roles split across SPG, Land event laws, and BL rules, but stated."
+  - id: a1.safety.integrated
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-convention, e-review]
+    note: "Convention language in force; no single domestic statute creating the integrated duty for all events."
+  - id: a1.safety.operator
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-stmk, e-bl-sicherheit]
+    note: "Veranstalter and home-club duties."
+  - id: a1.safety.officer
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-sicherheit]
+    note: "Sicherheitsverantwortlicher required for highest-division clubs."
+  - id: a1.safety.regulations
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-sicherheit, e-bl-stadion]
+    note: "Platz-/Hausordnung required and displayed; condition of entry under association rules."
+  - id: a1.cert.required
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-stadion, e-review]
+    note: "Land Veranstaltungsstättenbewilligung or building/event approval; BL requires Behördenbescheid."
+  - id: a1.cert.authority
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Gemeinde/Veranstaltungsbehörde issues and conditions permits (Oö. model confirmed in practice)."
+  - id: a1.cert.capacity
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-stadion, e-review]
+    note: "Permit practice sets capacity; BL sets minimum stadium capacity."
+  - id: a1.cert.inspect
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-stadion]
+    note: "Expert checks in agreement with authorities; Land periodic checks described for Oö."
+  - id: a1.cert.enforce
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review, e-bl-sicherheit]
+    note: "Additional conditions, event limits, BL disciplinary sanctions."
+  - id: a1.venue.infrastructure
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-stadion]
+    note: "Stadionbestimmungen 2025 for highest division."
+  - id: a1.venue.segregation
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-stadion, e-stmk, e-bl-sicherheit]
+    note: "BL segregation and buffer zones; StVAG for high-risk stadium events."
+  - id: a1.venue.cctv
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-stadion, e-bl-ordner]
+    note: "Mandatory CCTV for highest-division stadia; Ordner video rules under data-protection approval."
+  - id: a1.venue.operations
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-sicherheit, e-bl-ordner]
+    note: "Krisenkontaktgruppe, Situierungsplan, police communications."
+  - id: a1.emerg.plan
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-wien, e-bl-stadion]
+    note: "Land Sicherheitskonzept; BL approved evacuation plan."
+  - id: a1.emerg.contingency
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-bl-sicherheit, e-bl-ordner]
+    note: "Krisenmanagement and bomb-threat/evacuation tasks."
+  - id: a1.emerg.evacuation
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-stadion, e-wien]
+    note: "Approved Fluchtweg-/Evakuierungsplan."
+  - id: a1.emerg.exercise
+    status: met
+    confidence: medium
+    change: amended
+    evidence: [e-bl-stadion]
+    note: "Proof of Evakuierungs-Tests und Trainings required in Stadionbestimmungen."
+  - id: a1.svc.required
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-stmk, e-wien, e-bl-ordner]
+    note: "Land Ordnungsdienst; BL Ordner for highest division."
+  - id: a1.svc.stewards
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Einsatzleiter under Sicherheitsverantwortlicher."
+  - id: a1.svc.volunteers
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-bl-ordner]
+    note: "Employment or written Hausrecht mandate required; no volunteer policy text found."
+  - id: a1.access.inclusion
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-bl-stadion, e-wien]
+    note: "Wheelchair places and evacuation attention; no named disability access officer."
+  - id: a1.access.tickets
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-sicherheit]
+    note: "BL ticketing and segregation; no UK-style unauthorised-entry offence found."
+  - id: a1.access.prohibited
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-sicherheit, e-stmk]
+    note: "Detailed prohibited-items lists; Land refusal duties."
+  - id: a1.access.search
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner, e-spg-2024]
+    note: "Ordner entry searches; SPG § 41 police search ordinances as widened 2024."
+  - id: a1.access.expel
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-ordner, e-stmk]
+    note: "Hausrecht expulsion; consequences of refusal set out."
+  - id: a1.police.role
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-spg, e-bl-sicherheit, e-nfis]
+    note: "Police Einsatzleiter; Krisenkontaktgruppe; NFIS."
+  - id: a1.police.risk
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "High-Risk match practice and intelligence; no statutory supporter-category scheme read."
+  - id: a1.police.ban
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-oefb-ban, e-spg]
+    note: "ÖFB nationwide Stadionverbot; SPG Betretungsverbot and Meldeauflage. Travel restriction via Meldeauflage, not passport surrender."
+  - id: a1.police.database
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-oefb-ban, e-nfis]
+    note: "ÖFB/BL ban list confirmed and shared with BMI. Police Gewalttäterdatei Sport not re-read in RIS."
+  - id: a1.police.nfip
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-nfis]
+    note: "NFIS in BMI Referat II/BPD/5/b."
+  - id: a1.dial.dialogue
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-bl-sicherheit]
+    note: "Fanbeauftragter and fan-club engagement; no statutory supporters charter."
+  - id: a1.dial.slo
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-sicherheit]
+    note: "Fanbeauftragter required for highest-division clubs."
+  - id: a1.dial.dao
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-bl-stadion]
+    note: "Infrastructure for wheelchair users found; named disability access officer not found."
+  - id: a1.dial.discrimination
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-sicherheit, e-oefb-ban]
+    note: "Association bans; Verbotsgesetz and § 283 StGB."
+  - id: a1.dial.projects
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No legal duty for fan projects or fan embassies found."
+  - id: a1.off.conduct
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-spg, e-oefb-ban, e-review]
+    note: "Criminal law, Pyrotechnikgesetz, SPG admin offences, association bans."
+  - id: a1.off.staff
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Ordinary assault law; no sports-staff-specific aggravation found."
+  - id: a2.status.defined
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Ordner as venue safety staff under Hausrecht, distinct from police."
+  - id: a2.status.qualified
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "BL Ordnerschulung and Ordnerausweis for fan-sector and pitch posts."
+  - id: a2.status.vetting
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-gewo]
+    note: "Bewachungsgewerbe reliability regime; universal Ordner criminal-record check not confirmed."
+  - id: a2.status.provider
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-gewo, e-bl-ordner]
+    note: "GewO § 129 for commercial providers; written Hausrecht mandate for club Ordner."
+  - id: a2.duty.crowd
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Entry, ticket checks, crowd duties in Ordnerrichtlinien."
+  - id: a2.duty.powers
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-ordner]
+    note: "Search, StPO detention, expulsion grounded in Hausrecht/StPO/self-defence, distinct from police."
+  - id: a2.duty.emergency
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-bl-ordner]
+    note: "Evacuation and pyrotechnics response; first-aid syllabus not opened."
+  - id: a2.duty.police
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-sicherheit, e-bl-ordner]
+    note: "Sicherheitsbesprechung and Krisenkontaktgruppe."
+  - id: a2.conduct.code
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Politeness and de-escalation required; full neutrality/non-discrimination code not read."
+  - id: a2.conduct.visible
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Recognisable Ordnerweste required; unique personal number not found."
+  - id: a2.records.handbook
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-bl-ordner]
+    note: "Schulungshandbuch referred to for pyrotechnics; universal issued handbook not confirmed."
+  - id: a2.records.kept
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "Training proof to Spielbeobachter; Land inspection of vetting records not confirmed."
+  - id: a2.train.initial
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-bl-ordner]
+    note: "BL Ordnerschulung before fan-sector/pitch deployment; refresh every two years."
+  - id: a2.train.ct
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Published syllabus covering CT and discrimination not opened."
+  - id: a2.train.exercise
+    status: met
+    confidence: medium
+    change: amended
+    evidence: [e-bl-stadion]
+    note: "Evacuation tests and training must be evidenced."
+  - id: a2.svc.welcome
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-bl-ordner]
+    note: "Polite service required; disability support and discrimination-reporting route not detailed."
+  - id: a2.svc.law
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-gewo, e-bl-ordner]
+    note: "GewO Bewachungsgewerbe covers event Ordner services; association rules for club Ordner."
+gaps:
+  - indicator: a1.gov.strategy
+    question: "Is there a published national strategy on safety, security and service (for example the BMI platform Sicherheit und Sport), and is it kept under review?"
+  - indicator: a1.cert.required
+    question: "Do all nine Länder require a Veranstaltungsstättenbewilligung or equivalent with a stated safe capacity for football stadia above a common threshold?"
+  - indicator: a2.status.vetting
+    question: "Is criminal-record or reliability vetting required by law for every Ordner at designated sports events, including in-house club staff?"
+  - indicator: a2.train.ct
+    question: "Does steward training mandatorily cover counter-terrorism awareness and discriminatory behaviour, and where is that syllabus published?"
+  - indicator: a2.conduct.visible
+    question: "Is a unique steward number required on clothing, or only a recognisable Ordnerweste?"
+  - indicator: a1.dial.dao
+    question: "Is a named disability access officer (or equivalent) required for Bundesliga or ÖFB events?"
+  - indicator: a1.police.database
+    question: "Please confirm the legal basis and current practice for the Gewalttäterdatei Sport and for sharing ÖFB stadium-ban data with the police."
+  - indicator: a1.gov.committee
+    question: "Has any Land or federal instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?"
+  - indicator: a1.emerg.plan
+    question: "What changed in Wiener Veranstaltungsgesetz § 31 from 1 July 2026 that affects football events?"
+  - indicator: a1.svc.volunteers
+    question: "Are volunteer Ordner permitted in the safety role, and under what limits?"
