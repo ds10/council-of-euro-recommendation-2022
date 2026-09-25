@@ -186,6 +186,26 @@ evidence:
     imposes_duty: true
     cites_rec_2022_2: false
     summary: "Bewachungsgewerbe includes Ordner- und Kontrolldienste bei Veranstaltungen."
+  - id: e-spg-data
+    title: "SPG §§ 56 Abs. 1 Z 3a and 57 Abs. 1 Z 11a"
+    citation: "SPG §§ 56, 57"
+    url: "https://www.jusline.at/gesetz/spg/paragraf/56"
+    instrument_date: ""
+    language: de
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Police feed to ÖFB/BL for stadium bans; central sport-violence collection for § 49a."
+  - id: e-bl-lizenz
+    title: "ÖFBL Lizenzbestimmungen"
+    citation: "ÖFBL Lizenzbestimmungen"
+    url: "https://cdn.bundesliga.at/website_content/2026-06-17/Lizenzbestimmungen_ab%2009062026.pdf"
+    instrument_date: "2026-06-09"
+    language: de
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Fanbeauftragter A-criterion; Behindertenbeauftragter 8.1.3.7 B-criterion."
 indicators:
   - id: a1.gov.committee
     status: partial
@@ -243,10 +263,10 @@ indicators:
     note: "Land Veranstaltungsstättenbewilligung or building/event approval; BL requires Behördenbescheid."
   - id: a1.cert.authority
     status: met
-    confidence: medium
+    confidence: high
     change: unchanged
     evidence: [e-review]
-    note: "Gemeinde/Veranstaltungsbehörde issues and conditions permits (Oö. model confirmed in practice)."
+    note: "Oö. VSG §§ 9, 12, 14: issue, Auflagen, Entzug, Sperre. Wr. VG Eignungsfeststellung/Schließung; StVAG Betrieb untersagen."
   - id: a1.cert.capacity
     status: met
     confidence: high
@@ -335,8 +355,8 @@ indicators:
     status: partial
     confidence: medium
     change: amended
-    evidence: [e-bl-stadion, e-wien]
-    note: "Wheelchair places and evacuation attention; no named disability access officer."
+    evidence: [e-bl-stadion, e-wien, e-bl-lizenz]
+    note: "Wheelchair places and evacuation attention; Behindertenbeauftragter is Lizenz B-criterion."
   - id: a1.access.tickets
     status: partial
     confidence: high
@@ -380,11 +400,11 @@ indicators:
     evidence: [e-oefb-ban, e-spg]
     note: "ÖFB nationwide Stadionverbot; SPG Betretungsverbot and Meldeauflage. Travel restriction via Meldeauflage, not passport surrender."
   - id: a1.police.database
-    status: partial
-    confidence: medium
+    status: met
+    confidence: high
     change: unchanged
-    evidence: [e-oefb-ban, e-nfis]
-    note: "ÖFB/BL ban list confirmed and shared with BMI. Police Gewalttäterdatei Sport not re-read in RIS."
+    evidence: [e-oefb-ban, e-nfis, e-spg-data]
+    note: "SPG § 57 Abs. 1 Z 11a central collection; § 56 Abs. 1 Z 3a feed to ÖFB/BL; ÖFB/BL Stadionverbotsliste."
   - id: a1.police.nfip
     status: met
     confidence: high
@@ -404,11 +424,11 @@ indicators:
     evidence: [e-bl-sicherheit]
     note: "Fanbeauftragter required for highest-division clubs."
   - id: a1.dial.dao
-    status: not_found
-    confidence: medium
-    change: unknown
-    evidence: [e-bl-stadion]
-    note: "Infrastructure for wheelchair users found; named disability access officer not found."
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-bl-lizenz]
+    note: "BL Lizenzbestimmungen 8.1.3.7 Behindertenbeauftragter (B-criterion); weaker than A-criterion Fanbeauftragter."
   - id: a1.dial.discrimination
     status: met
     confidence: high
@@ -547,12 +567,12 @@ gaps:
   - indicator: a2.conduct.visible
     question: "Is a unique steward number required on clothing, or only a recognisable Ordnerweste?"
   - indicator: a1.dial.dao
-    question: "Is a named disability access officer (or equivalent) required for Bundesliga or ÖFB events?"
-  - indicator: a1.police.database
-    question: "Please confirm the legal basis and current practice for the Gewalttäterdatei Sport and for sharing ÖFB stadium-ban data with the police."
+    question: "In practice, is the Behindertenbeauftragter (Lizenz B-criterion) a hard licence condition for every highest-division club, and does a similar post exist for ÖFB cup or lower leagues?"
   - indicator: a1.gov.committee
     question: "Has any Land or federal instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?"
   - indicator: a1.emerg.plan
     question: "What changed in Wiener Veranstaltungsgesetz § 31 from 1 July 2026 that affects football events?"
   - indicator: a1.svc.volunteers
     question: "Are volunteer Ordner permitted in the safety role, and under what limits?"
+  - indicator: a1.police.database
+    question: "Is the BMI–ÖFB/BL contract under SPG § 56 Abs. 5 still in force, and are deletion and notice safeguards applied as written?"

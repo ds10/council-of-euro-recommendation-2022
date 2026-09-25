@@ -27,11 +27,11 @@ These are the changes found. The provincial venue-permit regime and the SPG spor
 
 ## Federal, Land, and association rules — not one statute
 
-**Federal policing.** The Sicherheitspolizeigesetz gives the security authorities power to declare a Sicherheitsbereich around a Sportgroßveranstaltung (§ 49a), to ban a person from that area for the duration of the ordinance (§ 49a Abs. 2), to summon persons for a Gefährderansprache (§ 49b), and to impose a Meldeauflage requiring personal appearance at a police station around a designated event (§ 49c). Secondary commentary and training materials describe a Gewalttäterdatei Sport and data sharing toward stadium bans. The full database paragraphs were not re-opened in RIS in this pass; confidence on the database line is therefore medium.
+**Federal policing.** The Sicherheitspolizeigesetz gives the security authorities power to declare a Sicherheitsbereich around a Sportgroßveranstaltung (§ 49a), to ban a person from that area for the duration of the ordinance (§ 49a Abs. 2), to summon persons for a Gefährderansprache (§ 49b), and to impose a Meldeauflage requiring personal appearance at a police station around a designated event (§ 49c). Section 57 Abs. 1 Z 11a authorises a central police collection on persons who committed sport-related dangerous attacks (the Gewalttäterdatei Sport in practice) for § 49a purposes. Section 56 Abs. 1 Z 3a allows transmission of limited personal data to the ÖFB and the Bundesliga so they can examine and impose a Sportstättenbetretungsverbot, under a contract with the Interior Ministry and with deletion and notice safeguards (Abs. 5).
 
 **National football information point.** Referat II/BPD/5/b in the Interior Ministry houses the Nationale Fußballinformationsstelle (NFIS), expressly tied to Council Decision 2002/348/JI. Its published tasks include concepts for public safety at sports events, guidelines for the szenekundiger Dienst, an international fan database, and coordination of preventive fan support. The page was last updated 19 August 2026.
 
-**Land event and venue law.** Venue safety licensing is provincial. Upper Austria’s Veranstaltungssicherheitsgesetz provides for a Veranstaltungsstättenbewilligung that can set capacity and conditions; a 2015 administrative court case on a football stadium confirms that model in practice. Styria’s Veranstaltungsgesetz 2012 § 5 requires an Ordnerdienst, fire and medical cover where violence or rival supporter groups are expected, and for high-risk stadium events also segregation, controlled ticketing, refusal of entry for intoxicated persons and those with prohibited items, and promotion of house rules. Vienna’s Veranstaltungsgesetz 2020 § 31 requires a Sicherheitskonzept for events above 5,000 spectators (and for higher-risk events below that threshold), covering Ordnungsdienst, access control, counting systems, communication with emergency services, and alarm/evacuation plans including disabled persons. Other Länder were not opened in full.
+**Land event and venue law.** Venue safety licensing is provincial. Upper Austria’s Veranstaltungssicherheitsgesetz requires a Veranstaltungsstättenbewilligung before a venue used exclusively or predominantly for events may be operated (§ 9); the Gemeinde, Bezirksverwaltungsbehörde, or Landesregierung issues it by capacity and geography (§ 14), can attach conditions, withdraw it if prerequisites cease, and close a dangerous venue; recurring inspection is at least every ten years (§ 12). Styria’s Veranstaltungsgesetz 2012 § 5 requires an Ordnerdienst, fire and medical cover where violence or rival supporter groups are expected, and for high-risk stadium events also segregation, controlled ticketing, refusal of entry for intoxicated persons and those with prohibited items, and promotion of house rules. Vienna’s Veranstaltungsgesetz 2020 requires an Eignungsfeststellung before notifiable events (§§ 16–18), sets Fassungsraum rules (§ 22), and § 31 requires a Sicherheitskonzept for events above 5,000 spectators (and for higher-risk events below that threshold), covering Ordnungsdienst, access control, counting systems, communication with emergency services, and alarm/evacuation plans including disabled persons. Other Länder were not opened in full.
 
 **Association rules for top football.** For the highest Bundesliga division, the Sicherheitsrichtlinien, Ordnerrichtlinien, and Stadionbestimmungen are binding instructions under disciplinary power. They require a Sicherheitsverantwortlicher, a Fanbeauftragter, placard/house rules, segregation, prohibited items, searches, a Krisenkontaktgruppe with police, CCTV, an approved evacuation plan with proof of tests, and trained Ordner. The ÖFB Stadionverbotsordnung (in force 1 July 2021) provides nationwide private-law stadium bans administered by the Prävention & Stadionverbote committee, with a shared ban list for clubs, associations, and the Interior Ministry.
 
@@ -73,15 +73,15 @@ Styria and Vienna require Ordnungsdienst in the settings described above. Bundes
 
 ### Access, tickets, and removal from the ground — met for prohibited items, search, and expulsion at top football; partial nationally for disability access and ticketing crime
 
-Bundesliga and ÖFB lists define prohibited items and behaviour, including pyrotechnics and discriminatory banners. Ordner may search at entry (same-sex searches, clothing and bags) and refuse entry or expel under Hausrecht; refusal to surrender a ticket can lead to removal. Ticketing is regulated in association rules (sector assignment, guest cash desks, counterfeit strategy with police). A specific federal criminal offence of unauthorised entry to football matches of the UK 2026 type was not found; general fraud, housebreaking-type offences, and association bans apply. Disability access: Stadionbestimmungen require at least 15 wheelchair places with companion space and an accessible WC, with further recommendations by capacity; Vienna’s concept must address disabled persons in evacuation. A statutory disability access officer post was not found. Federal Behindertengleichstellungsrecht was not re-read in full in this pass.
+Bundesliga and ÖFB lists define prohibited items and behaviour, including pyrotechnics and discriminatory banners. Ordner may search at entry (same-sex searches, clothing and bags) and refuse entry or expel under Hausrecht; refusal to surrender a ticket can lead to removal. Ticketing is regulated in association rules (sector assignment, guest cash desks, counterfeit strategy with police). A specific federal criminal offence of unauthorised entry to football matches of the UK 2026 type was not found; general fraud, housebreaking-type offences, and association bans apply. Disability access: Stadionbestimmungen require at least 15 wheelchair places with companion space and an accessible WC, with further recommendations by capacity; Vienna’s concept must address disabled persons in evacuation. The Bundesliga Lizenzbestimmungen require a Behindertenbeauftragter (disability access officer) as a B-criterion: the club must appoint a person responsible for barrier-free facilities and services for spectators. That is weaker than the A-criterion Fanbeauftragter, but it is a named post. Federal Behindertengleichstellungsrecht was not re-read in full in this pass.
 
 ### Policing, risk, and exclusion — met for NFIP and exclusion tools; partial for statutory risk categories
 
-Police match-day command sits with the security authority’s Einsatzleiter; Bundesliga rules require coordination through the Krisenkontaktgruppe. NFIS is the national football information point. Exclusion: ÖFB Stadionverbotsordnung provides nationwide bans (6 months to 10 years) on a private-law Hausrecht basis, registered and shared with clubs and the BMI. SPG Betretungsverbot excludes from a declared Sicherheitsbereich for the life of that ordinance; Meldeauflage can keep a person away from an event by requiring appearance at a police station. That is not the same as a UK-style court football banning order with passport surrender for foreign matches, but it is a competent-authority exclusion system. A formal statutory scheme that categorises supporters into risk classes with published safeguards was not found; policing uses risk assessment and High-Risk match practice. Database of banned persons: ÖFB/BL list is explicit; the police Gewalttäterdatei Sport is described in secondary sources and is treated here as partial/medium until the RIS paragraphs are confirmed in a later pass.
+Police match-day command sits with the security authority’s Einsatzleiter; Bundesliga rules require coordination through the Krisenkontaktgruppe. NFIS is the national football information point. Exclusion: ÖFB Stadionverbotsordnung provides nationwide bans (6 months to 10 years) on a private-law Hausrecht basis, registered and shared with clubs and the BMI. SPG Betretungsverbot excludes from a declared Sicherheitsbereich for the life of that ordinance; Meldeauflage can keep a person away from an event by requiring appearance at a police station. That is not the same as a UK-style court football banning order with passport surrender for foreign matches, but it is a competent-authority exclusion system. A formal statutory scheme that categorises supporters into risk classes with published safeguards was not found; policing uses risk assessment and High-Risk match practice. Database of banned persons: the ÖFB/BL Stadionverbotsliste is explicit, and SPG §§ 56 Abs. 1 Z 3a and 57 Abs. 1 Z 11a supply the police collection and the lawful feed into association bans.
 
 ### Service, dialogue, and inclusion — partial, met for Fanbeauftragter and discrimination rules at top football
 
-Bundesliga clubs must appoint a Fanbeauftragter (supporter liaison). Dialogue with fan clubs is encouraged and, for match-day issues, practised through the Fanbeauftragter and choreography approval rules; a national supporters’ charter or statutory dialogue duty was not found. Discrimination and racist behaviour are banned in house rules, Sicherheitsrichtlinien, and Stadionverbotsordnung, and can be criminal under the Verbotsgesetz and general criminal law (§ 283 StGB). Fan projects or fan embassies as a legal duty were not found. Disability access officer: not found as a named post.
+Bundesliga clubs must appoint a Fanbeauftragter (supporter liaison, A-criterion). Dialogue with fan clubs is encouraged and, for match-day issues, practised through the Fanbeauftragter and choreography approval rules; a national supporters’ charter or statutory dialogue duty was not found. Discrimination and racist behaviour are banned in house rules, Sicherheitsrichtlinien, and Stadionverbotsordnung, and can be criminal under the Verbotsgesetz and general criminal law (§ 283 StGB). Fan projects or fan embassies as a legal duty were not found. A Behindertenbeauftragter is required as a B-criterion in the Lizenzbestimmungen.
 
 ### Sports-event offences — met
 
@@ -120,26 +120,26 @@ These are the points this review could not close. They are the survey, pre-fille
 3. Is criminal-record or reliability vetting required by law for every Ordner at designated sports events, including in-house club staff?
 4. Does steward training mandatorily cover counter-terrorism awareness and discriminatory behaviour, and where is that syllabus published?
 5. Is a unique steward number required on clothing, or only a recognisable Ordnerweste?
-6. Is there a named disability access officer (or equivalent) required for Bundesliga or ÖFB events?
-7. Please confirm the legal basis and current practice for the Gewalttäterdatei Sport and for sharing ÖFB stadium-ban data with the police.
-8. Has any Land or federal instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?
-9. What changed in Wiener Veranstaltungsgesetz § 31 from 1 July 2026 that affects football events?
-10. Are volunteer Ordner permitted in the safety role, and under what limits?
+6. In practice, is the Behindertenbeauftragter (Lizenz B-criterion) treated as a hard licence condition for every highest-division club, and does a similar post exist for ÖFB cup or lower leagues?
+7. Has any Land or federal instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?
+8. What changed in Wiener Veranstaltungsgesetz § 31 from 1 July 2026 that affects football events?
+9. Are volunteer Ordner permitted in the safety role, and under what limits?
+10. Is the BMI–ÖFB/BL contract under SPG § 56 Abs. 5 still in force, and are deletion and notice safeguards applied as written?
 
 ## Where this was looked for
 
 | Place | What was opened | Result |
 |---|---|---|
-| RIS / Jusline | Sicherheitspolizeigesetz §§ 49a–49c; SPG Novelle BGBl. I Nr. 122/2024 (§ 41); Saint-Denis Convention BGBl. III Nr. 124/2021; GewO 1994 § 129; Wiener VG § 31; Steiermärkisches Veranstaltungsgesetz § 5 | Hit |
+| RIS / Jusline | Sicherheitspolizeigesetz §§ 49a–49c, 56 Abs. 1 Z 3a, 57 Abs. 1 Z 11a; SPG Novelle BGBl. I Nr. 122/2024 (§ 41); Saint-Denis Convention BGBl. III Nr. 124/2021; GewO 1994 § 129; Wiener VG §§ 16–18, 22, 31; Steiermärkisches Veranstaltungsgesetz § 5; Oö. Veranstaltungssicherheitsgesetz §§ 9, 12, 14 | Hit |
 | BMI | Referat II/BPD/5/b (NFIS); Saint-Denis accession news; Forum Sicherheit im Sport reporting | Hit |
 | CoE sport country profile / treaty reporting | Austria ratification and entry into force for CETS No. 218 | Hit (secondary confirmation of 3 Sept 2021 / 1 Oct 2021) |
-| Österreichische Fußball-Bundesliga | Sicherheitsrichtlinien (1 July 2024); Ordnerrichtlinien (1 July 2026); Stadionbestimmungen (1 July 2025) | Hit |
+| Österreichische Fußball-Bundesliga | Sicherheitsrichtlinien (1 July 2024); Ordnerrichtlinien (1 July 2026); Stadionbestimmungen (1 July 2025); Lizenzbestimmungen (9 June 2026) | Hit |
 | ÖFB | Stadionverbotsordnung (1 July 2021); ticket AGBs referring to ban list; prohibited-items annex for cup competitions | Hit |
 | Upper Austria practice | LVwG decision on Veranstaltungsstättenbewilligung for a football stadium; WKO summary of Oö. Veranstaltungssicherheitsgesetz | Hit |
 | Direct search for Rec(2022)2 | Recommendation number and title on BMI and RIS-facing searches | No citation found. Convention and Saint-Denis language appear; Rec(2022)2 does not |
 | Sport ministry | EU-Jahresvorschau 2025, Balance S4 note | Hit on project cooperation |
 
-ÖFB full Sicherheitsrichtlinien for all competitions, every Land Veranstaltungsgesetz, and the full RIS text of the Gewalttäterdatei Sport paragraphs were not opened end to end. Findings that would depend on them are marked partial or as a question above.
+ÖFB full Sicherheitsrichtlinien for all competitions, and every Land Veranstaltungsgesetz beyond Upper Austria, Vienna, and Styria, were not opened end to end. Findings that would depend on them are marked partial or as a question above.
 
 ## Judgements, one line each
 
@@ -156,7 +156,7 @@ These are the points this review could not close. They are the survey, pre-fille
 | Safety officer | met | high | unchanged | BL Sicherheitsverantwortlicher |
 | Venue regulations as a condition of entry | met | high | amended | BL/ÖFB house rules; Ordnerrichtlinien 2026 |
 | Safety certificate required | met | high | unchanged | Land Veranstaltungsstättenbewilligung; BL proof of Bescheid |
-| Authority can refuse or withdraw it | met | medium | unchanged | Permit conditions and administrative practice (Oö. model) |
+| Authority can refuse or withdraw it | met | high | unchanged | Oö. VSG §§ 9, 12, 14; Wr. VG Eignungsfeststellung and Schließung; StVAG Betrieb untersagen |
 | Safe capacity | met | high | unchanged | Permit practice; BL minimum capacity rules |
 | Inspection | met | high | unchanged | Expert checks under Stadionbestimmungen; Land oversight |
 | Enforcement and penalties | met | high | unchanged | Administrative conditions; BL disciplinary power |
@@ -179,11 +179,11 @@ These are the points this review could not close. They are the survey, pre-fille
 | Police role coordinated | met | high | unchanged | SPG; Krisenkontaktgruppe; NFIS |
 | Risk categories for supporters | partial | low | unknown | Risk/High-Risk practice; no statutory categorisation scheme read |
 | Banning orders, including travel restriction | met | high | unchanged | ÖFB Stadionverbot; SPG Betretungsverbot and Meldeauflage |
-| Database of banned persons | partial | medium | unchanged | ÖFB/BL ban list confirmed; police sports violence file not re-read in RIS |
+| Database of banned persons | met | high | unchanged | SPG § 57 Abs. 1 Z 11a; § 56 Abs. 1 Z 3a to ÖFB/BL; ÖFB/BL Stadionverbotsliste |
 | National football information point | met | high | unchanged | BMI NFIS page |
 | Supporter dialogue | partial | medium | unchanged | Fanbeauftragter and fan-club practice; no statutory charter |
 | Supporter liaison officer | met | high | unchanged | BL Fanbeauftragter |
-| Disability access officer | not found | medium | unknown | Wheelchair infrastructure found; named officer not found |
+| Disability access officer | partial | high | unchanged | BL Lizenzbestimmungen 8.1.3.7 Behindertenbeauftragter (B-criterion) |
 | Hate speech and discrimination | met | high | unchanged | Verbotsgesetz; BL/ÖFB rules; § 283 StGB |
 | Fan projects or fan embassies | not found | medium | unknown | No legal duty found |
 | Disorder, missiles, pitch invasion | met | high | unchanged | Criminal law; Pyrotechnikgesetz; association bans |
@@ -221,7 +221,9 @@ These are the points this review could not close. They are the survey, pre-fille
 - [ÖFBL Stadionbestimmungen, 1 July 2025](https://cdn.bundesliga.at/downloads/2025-07-03/BL1-Stadionbestimmungen_ab%2001072025_final.pdf).
 - [ÖFB Stadionverbotsordnung, 1 July 2021](https://www.oefb.at/oefb/OeFB-Stadionverbotsordnung-gueltig-ab-1-7-2021-EF.pdf).
 - [GewO 1994 § 129, Bewachungsgewerbe](https://www.jusline.at/gesetz/gewo/paragraf/129).
-- [WKO Upper Austria, Veranstaltungsstättenbewilligung under Oö. VSG](https://www.wko.at/ooe/tourismus-freizeitwirtschaft/kino-kultur-vergnuegungsbetriebe/veranstaltungsstaetten-stand-2026.pdf).
+- [Oö. Veranstaltungssicherheitsgesetz](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=LrOO&Gesetzesnummer=20000474) (§§ 9, 12, 14).
+- [ÖFBL Lizenzbestimmungen](https://cdn.bundesliga.at/website_content/2026-06-17/Lizenzbestimmungen_ab%2009062026.pdf) (Fanbeauftragter A-criterion; Behindertenbeauftragter 8.1.3.7 B-criterion).
+- [SPG § 56](https://www.jusline.at/gesetz/spg/paragraf/56) and [§ 57](https://www.jusline.at/gesetz/spg/paragraf/57) (ÖFB/BL data feed; central sport-violence collection).
 - Sports ministry EU-Jahresvorschau 2025 (Balance S4 / Saint-Denis), parliamentary document XXVIII/III/151.
 
 The working record of these judgements is [austria.yaml](austria.yaml). This page is the review to read.
