@@ -1,6 +1,6 @@
 # National uptake of Recommendation Rec(2022)2
 
-**Start with the [United Kingdom review](countries/united-kingdom.md).** It is the first completed country file. Read it from the top. The topic sections are the findings. The table at the end is the same findings, one line per duty.
+**Start with the [United Kingdom review](countries/united-kingdom.md).** It is the first completed country file. The [Austria review](countries/austria.md) is the second. Read either from the top. The topic sections are the findings. The table at the end is the same findings, one line per duty.
 
 This repository is the review of how far countries have reflected [Recommendation Rec(2022)2](sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf) in national legal, regulatory, and administrative frameworks, and what has changed since it was adopted.
 
@@ -85,7 +85,7 @@ The cross-country product is a map: by indicator, how many countries are `met`, 
 ## How the work proceeds
 
 1. **Codebook v1.** In place. Revise an indicator only when a pilot shows it is too wide to judge or too narrow to be worth a question.
-2. **Pilot.** The United Kingdom review is written. England and Wales, Scotland, and Northern Ireland are kept distinct where their regimes differ. The second pilot is a State Party with little of the framework available in English, chosen when the party list is taken from the treaty chart, so an empty search is tested as well.
+2. **Pilot.** The United Kingdom review is written. England and Wales, Scotland, and Northern Ireland are kept distinct where their regimes differ. The Austria review is the second country file: a State Party whose core instruments are in German, so the desk review is tested beyond English-only sources.
 3. **Desk review.** One country file per remaining State Party, copied from [`countries/_template.yaml`](countries/_template.yaml).
 4. **Survey.** Send the pre-filled questions. File the replies against the same indicators.
 5. **Overview.** Update the assessments from the replies and write the cross-country map.
@@ -103,15 +103,17 @@ A finding based on a text the reviewer cannot read is recorded at low confidence
 
 ## Status
 
-Codebook v1 is in [`codebook/`](codebook/). The [United Kingdom review](countries/united-kingdom.md) is the first assessment. The country template for the next file is [`countries/_template.yaml`](countries/_template.yaml).
+Codebook v1 is in [`codebook/`](codebook/). The [United Kingdom review](countries/united-kingdom.md) is the first assessment. The [Austria review](countries/austria.md) is the second. The country template for the next file is [`countries/_template.yaml`](countries/_template.yaml).
 
 ```
 codebook/
   codebook.yaml
   codebook.md
 countries/
-  united-kingdom.md    the review to read
+  united-kingdom.md    the first review to read
   united-kingdom.yaml  the same judgements, in the working record
+  austria.md           the second review
+  austria.yaml
   _template.yaml
 sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
