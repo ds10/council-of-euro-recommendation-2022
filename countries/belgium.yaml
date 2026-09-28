@@ -1,0 +1,566 @@
+# Working record for the Belgium review.
+# Read countries/belgium.md. This file repeats those judgements for later comparison.
+country:
+  name: "Belgium"
+  code: BE
+  party_status: party
+  party_status_as_of: 2026-09-28
+  party_status_note: "Signed 29 November 2016. Ratified 9 September 2024. In force for Belgium on 1 November 2024 (CoE country profile; BeSafe ratification notice)."
+  assessed_at: 2026-09-28
+  languages_read:
+    - fr
+    - en
+    - nl
+  jurisdictions:
+    - Federal (Football Act and royal decrees)
+searches:
+  - id: s1
+    source_family: gazette
+    query: "Loi 21 décembre 1998 consolidée; loi 19 juin 2023; AR 25 mai 1999 stewards; AR 15 juin 1999 coordination; AR 6 juillet 2013 normes; AR 22 février 2006 CCTV; AR 20 juillet 2005 billets"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.besafe.be/fr/legislation-sur-la-securite-du-football"
+    note: "Federal Football Act and implementing royal decrees. Scope is football matches in designated divisions, not all sports events."
+  - id: s2
+    source_family: police
+    query: "Federal Police Bureau DAO Sport / Major Sports Event Department as NFIP; Circulaire OOP 38 spotters"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.coe.int/fr/web/sport/country-profile-belgium"
+    note: "NFIP confirmed via CoE country profile and NFIP Network biography of the Belgian head of Major Sports Events."
+  - id: s3
+    source_family: licensing
+    query: "Attestation bourgmestre; AR normes de sécurité stades; contrôles SPF Intérieur"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.ejustice.just.fgov.be/eli/arrete/2013/07/06/2013000448/justel"
+    note: "No independent stadium certification agency; mayor attestation plus SPF Football Cell controls."
+  - id: s4
+    source_family: sport_ministry
+    query: "BeSafe Service Sécurité Football; Plan Ensemble pour un Football sûr; ratification Saint-Denis; réforme 2025–2026"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.besafe.be/fr/politique-de-securite-du-football-et-prevention/plan-daction-ensemble-pour-un-football-sur"
+    note: "DG Sécurité & Prévention hosts the Football Safety Service / Cellule Football."
+  - id: s5
+    source_family: football_association
+    query: "URBSFA/RBFA steward training; Pro League DAO/SLO practice; Chambre nationale exclusions civiles"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.besafe.be/fr/steward-de-football"
+    note: "Federation delivers steward theory training and ID cards. Civil exclusion chamber reported from 2022."
+  - id: s6
+    source_family: nfip
+    query: "Point national d'information football Police fédérale"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.coe.int/fr/web/sport/country-profile-belgium"
+    note: "Bureau de coordination football / Major Sports Event Department."
+  - id: s7
+    source_family: citation
+    query: "Rec(2022)2 / Recommandation Rec(2022)2 on BeSafe, Justel, CoE Belgium profile"
+    date: 2026-09-28
+    outcome: none
+    url: "https://www.besafe.be/"
+    note: "Convention and Saint-Denis language found. Rec(2022)2 not cited by name."
+evidence:
+  - id: e-review
+    title: "See the source list in countries/belgium.md"
+    citation: ""
+    url: countries/belgium.md
+    instrument_date: ""
+    language: fr
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "The readable review holds the citations. No source checked cites Rec(2022)2."
+  - id: e-loi
+    title: "Loi relative à la sécurité lors des matches de football"
+    citation: "Loi 21 décembre 1998 (consolidée)"
+    url: "https://www.besafe.be/sites/default/files/2024-04/Voetbalwet%20-%20geconsolideerde%20versie%202023.05.12%20FR%201.pdf"
+    instrument_date: "1998-12-21"
+    language: fr
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Federal Football Act: organiser duties, stewards, safety officer, SLO, bans, offences, emergency plan."
+  - id: e-loi-2023
+    title: "Loi modifiant la loi football et la loi sécurité privée"
+    citation: "Loi 19 juin 2023"
+    url: "https://www.ejustice.just.fgov.be/eli/loi/2023/06/19/2023043308/justel"
+    instrument_date: "2023-06-19"
+    language: fr
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Identity checks by stewards; heavier sanctions for violence against stewards, racism, pyrotechnics; entry into force 16 July 2023."
+  - id: e-ar-steward
+    title: "AR conditions d'engagement des stewards de football"
+    citation: "AR 25 mai 1999"
+    url: "https://etaamb.openjustice.be/fr/arrete-royal-du-25-mai-1999_n1999000392"
+    instrument_date: "1999-05-25"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Dedicated stewarding regime: selection, vetting, training, ID card, fluorescent clothing, volunteer/professional."
+  - id: e-ar-coord
+    title: "AR politique de sécurité et de coordination"
+    citation: "AR 15 juin 1999"
+    url: "https://etaamb.openjustice.be/fr/arrete-royal-du-15-juin-1999_n1999000509"
+    instrument_date: "1999-06-15"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Safety officer duties, local advisory council, Cellule football missions."
+  - id: e-ar-normes
+    title: "AR normes de sécurité dans les stades de football"
+    citation: "AR 6 juillet 2013"
+    url: "https://www.ejustice.just.fgov.be/eli/arrete/2013/07/06/2013000448/justel"
+    instrument_date: "2013-07-06"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Binding stadium safety infrastructure norms; derogations via Football Cell commission."
+  - id: e-ar-cctv
+    title: "AR caméras de surveillance dans les stades"
+    citation: "AR 22 février 2006"
+    url: "https://www.besafe.be/fr/legislation-sur-la-securite-du-football"
+    instrument_date: "2006-02-22"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "CCTV installation and operation rules for football stadia."
+  - id: e-ar-billets
+    title: "AR gestion des billets"
+    citation: "AR 20 juillet 2005"
+    url: "https://www.besafe.be/fr/legislation-sur-la-securite-du-football"
+    instrument_date: "2005-07-20"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Ticket management modalities; identity-ticket correspondence checks under 2023 amendment."
+  - id: e-convention
+    title: "Saint-Denis Convention — Belgium ratification"
+    citation: "CETS No. 218"
+    url: "https://www.besafe.be/fr/besafenouveautes/la-belgique-renforce-la-securite-du-sport-avec-la-ratification-du-traite-de-saint"
+    instrument_date: "2024-09-09"
+    language: fr
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Ratification deposited 9 September 2024; in force for Belgium 1 November 2024."
+  - id: e-plan
+    title: "Plan d'action Ensemble pour un Football sûr"
+    citation: "Plan 12 mai 2022"
+    url: "https://www.besafe.be/fr/politique-de-securite-du-football-et-prevention/plan-daction-ensemble-pour-un-football-sur"
+    instrument_date: "2022-05-12"
+    language: fr
+    instrument_type: strategy
+    imposes_duty: false
+    cites_rec_2022_2: false
+    summary: "Multi-agency action plan: zero tolerance for racism, pyrotechnics, physical violence; five pillars."
+  - id: e-coe
+    title: "Council of Europe country profile — Belgium"
+    citation: "CoE Sport country profile"
+    url: "https://www.coe.int/fr/web/sport/country-profile-belgium"
+    instrument_date: "2025-01-01"
+    language: fr
+    instrument_type: other
+    imposes_duty: false
+    cites_rec_2022_2: false
+    summary: "Party dates; NFIP; Cellule; SLO duty; local multi-agency councils; ban types."
+  - id: e-besafe-steward
+    title: "BeSafe steward page and Steward Day"
+    citation: "BeSafe / SPF Intérieur"
+    url: "https://www.besafe.be/fr/steward-de-football"
+    instrument_date: "2022-12-08"
+    language: fr
+    instrument_type: guidance
+    imposes_duty: false
+    cites_rec_2022_2: false
+    summary: "Steward missions, no police powers, orange high-vis practice; Steward Day 8 December 2022."
+  - id: e-ar-fichier
+    title: "AR fichier des interdictions de stade"
+    citation: "AR 7 décembre 1999"
+    url: "https://www.besafe.be/fr/legislation-sur-la-securite-du-football"
+    instrument_date: "1999-12-07"
+    language: fr
+    instrument_type: regulation
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Central file of stadium bans; art. 45 Football Act feeds identification data."
+indicators:
+  - id: a1.gov.committee
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-coord, e-coe, e-loi]
+    note: "Cellule football / Service Sécurité Football in SPF Intérieur DG Sécurité & Prévention coordinates national football safety policy. CoE profile also names a national committee. Scope is football."
+  - id: a1.gov.local
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-coord, e-coe]
+    note: "Art. 5 safety convention with emergency services and police; art. 9 local advisory council for clubs staging multiple national matches."
+  - id: a1.gov.strategy
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-plan, e-coe]
+    note: "Plan Ensemble pour un Football sûr (12 May 2022) is a published multi-agency action plan. Not read as a full national strategy kept under formal periodic review covering safety, security and service equally."
+  - id: a1.gov.roles
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-coord, e-coe]
+    note: "Roles of organiser, safety officer, stewards, police, mayor, Football Cell, and federation are stated across the Act and ARs."
+  - id: a1.safety.integrated
+    status: met
+    confidence: high
+    change: new
+    evidence: [e-loi, e-convention, e-coe]
+    note: "Football Act requires integrated local conventions and active/passive safety. Convention in force for Belgium from 1 November 2024. Football-scoped, not all sports."
+  - id: a1.safety.operator
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023]
+    note: "Art. 3 organiser precautionary duty; art. 10 detailed measures; 2023 adds pyrotechnics and anti-identification-object duties."
+  - id: a1.safety.officer
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-coord]
+    note: "Responsable de la sécurité mandaté required; hierarchical authority over stewards."
+  - id: a1.safety.regulations
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi]
+    note: "Règlement d'ordre intérieur mandatory and a condition of entry; civil exclusion rules inside it."
+  - id: a1.cert.required
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-normes, e-coe]
+    note: "Art. 4: only stadia meeting royal safety norms. Mayor annual attestation under fire/panic and safety-norm regime; CoE profile confirms no separate independent agency."
+  - id: a1.cert.authority
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-normes, e-coe, e-ar-coord]
+    note: "Mayor issues attestation; SPF Football Cell inspects and advises on derogations; Minister may grant/void derogations."
+  - id: a1.cert.capacity
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi]
+    note: "Capacité de sécurité defined in art. 2 and set in the art. 5 convention; art. 8bis allows mayor to reduce it."
+  - id: a1.cert.inspect
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-normes, e-coe]
+    note: "Fire service reports, stability expert reports, and SPF Football Cell inspections."
+  - id: a1.cert.enforce
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023]
+    note: "Administrative fines on organisers (art. 18); capacity reduction (art. 8bis); spectator sanctions Title III–IV."
+  - id: a1.venue.infrastructure
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-normes]
+    note: "Detailed annex norms for spectator areas, routes, command room, etc."
+  - id: a1.venue.segregation
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-normes]
+    note: "Art. 10 requires separation of rival spectators; norms regulate barriers and zones."
+  - id: a1.venue.cctv
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-cctv, e-loi]
+    note: "Mandatory CCTV for top-division national/international matches under art. 10 §2 and AR 2006."
+  - id: a1.venue.operations
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-coord, e-ar-normes]
+    note: "Safety conventions, command room, steward–police briefings."
+  - id: a1.emerg.plan
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi]
+    note: "Art. 10 §2 3° plan interne d'urgence."
+  - id: a1.emerg.contingency
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-loi, e-ar-coord]
+    note: "Covered through the internal emergency plan and art. 5 multi-agency convention; no separate labelled contingency statute."
+  - id: a1.emerg.evacuation
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward]
+    note: "Evacuation expressly in the emergency plan; steward training covers evacuation procedures."
+  - id: a1.emerg.exercise
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi]
+    note: "Plan tested annually for first two years, then every three years with all partners."
+  - id: a1.svc.required
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward]
+    note: "Art. 7 requires stewards; AR sets minimum numbers."
+  - id: a1.svc.stewards
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward, e-ar-coord]
+    note: "Hierarchy under safety officer: steward, chef de division, chef steward."
+  - id: a1.svc.volunteers
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward]
+    note: "AR art. 2 expressly covers unpaid volunteers and paid professionals under the same selection and training rules."
+  - id: a1.access.inclusion
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-coe, e-review]
+    note: "Club DAO practice and Pro League accessibility work found. No Football Act article requiring disability access infrastructure was opened."
+  - id: a1.access.tickets
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-ar-billets, e-loi-2023]
+    note: "Ticket management regulated; 2023 allows steward identity–ticket checks and refusal of entry."
+  - id: a1.access.prohibited
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023]
+    note: "House rules plus Title III offences including pyrotechnics and anti-identification objects."
+  - id: a1.access.search
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi]
+    note: "Art. 13 superficial same-sex clothing and bag checks; refusal of entry if refused."
+  - id: a1.access.expel
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023]
+    note: "Refusal of entry for prohibited items, house-rule breach, stadium bans; identity mismatch refusal from 2023."
+  - id: a1.police.role
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-coord, e-coe]
+    note: "Police keep public order outside; intervene inside when organiser cannot manage. Roles set in conventions and circulars."
+  - id: a1.police.risk
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-coe, e-ar-steward]
+    note: "Risk-based deployment and spotters (OOP 38); steward training covers local risk groups. No statutory supporter risk-category scheme with published safeguards opened."
+  - id: a1.police.ban
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023, e-coe]
+    note: "Administrative, judicial, civil, and interim security-measure bans; perimeter ban; travel/exit ban (art. 24ter). Maximum administrative ban extended to ten years."
+  - id: a1.police.database
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-fichier, e-loi]
+    note: "Central stadium-ban file and photo file under art. 45. Further consolidation of admin/judicial/civil bans proposed in 2025–2026 reform (not yet law when assessed)."
+  - id: a1.police.nfip
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-coe]
+    note: "Federal Police Major Sports Event Department / football coordination bureau acts as NFIP."
+  - id: a1.dial.dialogue
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-loi, e-besafe-steward, e-plan]
+    note: "SLO mandatory; Respect mutuel dialogue campaign. No statutory supporters charter opened."
+  - id: a1.dial.slo
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-coe]
+    note: "Supporters liaison officer defined in the Act; Art. 8 covers SLO recruitment/training conditions; mandatory for top two divisions (AR 16 June 2018 as reported)."
+  - id: a1.dial.dao
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-coe, e-review]
+    note: "Pro League / club DAO practice reported; not found as a statutory Football Act duty."
+  - id: a1.dial.discrimination
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023, e-plan]
+    note: "Art. 10 racism/xenophobia awareness duty; Title III hate/incitement offences; 2023 minimum sanctions for racism; circular OOP 40."
+  - id: a1.dial.projects
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-coe, e-plan]
+    note: "Interior-funded prevention projects and federation/Pro League socio-educational projects form part of the published approach."
+  - id: a1.off.conduct
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023]
+    note: "Missile throwing, unlawful entry, pitch/forbidden zones, disorder, hate, pyrotechnics, anti-identification objects."
+  - id: a1.off.staff
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi-2023]
+    note: "2023 sets higher minimum fines and ban lengths for violence against stewards, safety officers, private security, police, and emergency staff."
+  - id: a2.status.defined
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward, e-besafe-steward]
+    note: "Steward defined in art. 2; distinct from police and from private-security agents."
+  - id: a2.status.qualified
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward]
+    note: "May act only after approved training and federation ID card."
+  - id: a2.status.vetting
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward]
+    note: "Certificat de bonnes conduite, vie et moeurs; no stadium ban in previous five years; psychological profile interview including a police officer."
+  - id: a2.status.provider
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-ar-steward, e-loi-2023]
+    note: "Dedicated Football Act stewarding regime; commercial gardiennage only for specified ticket identity checks under 2023 private-security amendment."
+  - id: a2.duty.crowd
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward]
+    note: "Welcome, ticket control, flow, evacuation doors, house-rule enforcement."
+  - id: a2.duty.powers
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-loi, e-loi-2023, e-besafe-steward]
+    note: "Search and refuse entry; no force or police powers. 2023 identity–ticket check."
+  - id: a2.duty.emergency
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward]
+    note: "First aid and evacuation in practical training; interim measures pending emergency services (art. 17)."
+  - id: a2.duty.police
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward, e-loi]
+    note: "Pre-match briefing under safety officer with police collaboration; information to police on troublemakers."
+  - id: a2.conduct.code
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-ar-steward, e-besafe-steward]
+    note: "Welcome and information duties exist. Free-standing written code covering courtesy, neutrality, and non-discrimination by name not opened in the AR."
+  - id: a2.conduct.visible
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward, e-besafe-steward]
+    note: "Fluorescent STEWARD clothing and photo ID card required. Unique personal number on clothing not found."
+  - id: a2.records.handbook
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-ar-steward]
+    note: "Pre-match briefings mandatory. Issued written handbook covering emergency plans for every steward not confirmed."
+  - id: a2.records.kept
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-ar-steward, e-loi]
+    note: "Federation issues/withdraws cards; organiser must re-check conditions; ban file used to check steward eligibility."
+  - id: a2.train.initial
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-ar-steward]
+    note: "Theory, practice (first aid, evacuation), and five-match stage before appointment; annual refresh."
+  - id: a2.train.ct
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-ar-steward]
+    note: "Mandatory syllabus lists crowd psychology and conflict management; counter-terrorism and anti-discrimination modules not named in AR art. 10."
+  - id: a2.train.exercise
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-loi, e-ar-steward]
+    note: "Statutory emergency-plan tests plus match briefings."
+  - id: a2.svc.welcome
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-loi, e-besafe-steward]
+    note: "Welcome and information duties are statutory. Disability-support and discrimination-reporting routes as express steward duties not detailed in the AR."
+  - id: a2.svc.law
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-ar-steward, e-loi-2023]
+    note: "Dedicated stewarding regime expressly outside ordinary private-security licensing; 2023 states how gardiennage agents may assist at ticket identity checks."
+gaps:
+  - indicator: a1.gov.strategy
+    question: "Is the Plan Ensemble pour un Football sûr treated as the national strategy on safety, security and service, and is it kept under formal periodic review?"
+  - indicator: a1.access.inclusion
+    question: "Which instrument requires disability access at designated football stadia, and is a Disability Access Officer a licensing or statutory condition?"
+  - indicator: a1.dial.dao
+    question: "Is a Disability Access Officer required by law or only by Pro League / club practice?"
+  - indicator: a2.conduct.code
+    question: "Is there a binding written steward code of conduct covering courtesy, neutrality, and non-discrimination?"
+  - indicator: a2.conduct.visible
+    question: "Is a unique steward number required on clothing, or only the fluorescent STEWARD garment and photo ID card?"
+  - indicator: a2.train.ct
+    question: "Does the Interior-approved steward syllabus mandatorily cover counter-terrorism awareness and discriminatory behaviour?"
+  - indicator: a2.records.handbook
+    question: "Do stewards receive their duties and emergency arrangements in a written handbook?"
+  - indicator: a1.gov.committee
+    question: "Has any Belgian instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?"
+  - indicator: a1.police.database
+    question: "Has the 2025–2026 reform consolidating administrative, judicial and civil stadium bans into a single SPF Intérieur database entered into force?"
+  - indicator: a1.safety.integrated
+    question: "Beyond football, which instruments apply the integrated safety, security and service approach to other sports events?"
