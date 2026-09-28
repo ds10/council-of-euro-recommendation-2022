@@ -1,0 +1,517 @@
+# Working record for the Estonia review.
+# Read countries/estonia.md. This file repeats those judgements for later comparison.
+country:
+  name: "Estonia"
+  code: EE
+  party_status: party
+  party_status_as_of: 2026-09-28
+  party_status_note: "Signed 14 October 2019. Ratified 16 December 2019. In force for Estonia on 1 February 2020 (CoE country profile; Riigi Teataja RT II, 16.01.2020, 1)."
+  assessed_at: 2026-09-28
+  languages_read:
+    - en
+    - et
+  jurisdictions:
+    - National (Sport Act / Security Activities Act)
+    - Municipal event permits
+    - EJL association rules
+searches:
+  - id: s1
+    source_family: gazette
+    query: "Sport Act §§ 20–25; Sport Act amendment RT I, 10.07.2025, 1; Security Activities Act; Saint-Denis Convention RT II, 16.01.2020, 1"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.riigiteataja.ee/en/eli/ee/505022016001/consolide/current"
+    note: "Municipal sports-event permit regime for designated football and high-risk events."
+  - id: s2
+    source_family: police
+    query: "Police and Border Guard Board NFIP; permit approval role"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://eur-lex.europa.eu/legal-content/EN-SL/TXT/?from=EN&uri=CELEX%3A52012XG1013%2801%29"
+    note: "NFIP contact historically in PPA Public Order Police Department; 2026 org chart page not re-opened."
+  - id: s3
+    source_family: licensing
+    query: "Municipal sports-event permit; refusal and conditions; season permit 2025 reform"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.riigiteataja.ee/akt/110072025001"
+    note: "Event permit rather than standing stadium safety certificate."
+  - id: s4
+    source_family: sport_ministry
+    query: "Ministry of Culture Sport Act policy; national SSS strategy"
+    date: 2026-09-28
+    outcome: none
+    url: "https://www.kul.ee/"
+    note: "No published national safety-security-service strategy for football opened in this pass."
+  - id: s5
+    source_family: football_association
+    query: "EJL Staadionite standard 2025; A. Le Coq Arena house rules; disciplinary regulation"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://www.jalgpall.ee/docs/Staadionite%20standard_2025.pdf"
+    note: ""
+  - id: s6
+    source_family: nfip
+    query: "nfip.estonia@list.pol.ee Police and Border Guard Board"
+    date: 2026-09-28
+    outcome: hit
+    url: "https://eur-lex.europa.eu/legal-content/EN-SL/TXT/?from=EN&uri=CELEX%3A52012XG1013%2801%29"
+    note: ""
+  - id: s7
+    source_family: citation
+    query: "Rec(2022)2 / soovitus Rec(2022)2 on Riigi Teataja, EJL, ministry pages"
+    date: 2026-09-28
+    outcome: none
+    url: "https://www.riigiteataja.ee/"
+    note: "Convention published. Rec(2022)2 not cited by name."
+evidence:
+  - id: e-review
+    title: "See the source list in countries/estonia.md"
+    citation: ""
+    url: countries/estonia.md
+    instrument_date: ""
+    language: en
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "The readable review holds the citations. No source checked cites Rec(2022)2."
+  - id: e-sport-act
+    title: "Sport Act — organisation of sports events"
+    citation: "Spordiseadus §§ 20–25"
+    url: "https://www.riigiteataja.ee/en/eli/ee/505022016001/consolide/current"
+    instrument_date: "2015-01-01"
+    language: en
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Municipal permit for designated football and high-risk sports events; organiser and steward/security duties."
+  - id: e-sport-2025
+    title: "Act amending the Sport Act"
+    citation: "RT I, 10.07.2025, 1"
+    url: "https://www.riigiteataja.ee/akt/110072025001"
+    instrument_date: "2025-07-10"
+    language: et
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Accessibility and pyrotechnics in permit file; season permits; staged 2026 force dates."
+  - id: e-turva
+    title: "Security Activities Act"
+    citation: "Turvaseadus"
+    url: "https://www.riigiteataja.ee/en/compare_original/522082024002"
+    instrument_date: "2024-07-01"
+    language: en
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Licensed security undertakings and security staff for event order maintenance."
+  - id: e-convention
+    title: "Saint-Denis Convention in Estonian law"
+    citation: "RT II, 16.01.2020, 1"
+    url: "https://www.riigiteataja.ee/akt/216012020001"
+    instrument_date: "2020-02-01"
+    language: et
+    instrument_type: statute
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Convention in force for Estonia from 1 February 2020."
+  - id: e-ejl-stadion
+    title: "EJL stadium category standards"
+    citation: "Staadionite standard 2025"
+    url: "https://www.jalgpall.ee/docs/Staadionite%20standard_2025.pdf"
+    instrument_date: "2025-01-01"
+    language: et
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "Infrastructure, turnstiles, evacuation doors, control room by EJL category."
+  - id: e-arena
+    title: "A. Le Coq Arena rules of internal procedure"
+    citation: "EJL / A. Le Coq Arena"
+    url: "https://jalgpall.ee/ejl/a-le-coq-arena/rules-of-internal-procedure-of-a-le-coq-arena"
+    instrument_date: ""
+    language: en
+    instrument_type: fa_rule
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "CCTV, searches, prohibited items, expulsion, discrimination ban, evacuation instructions."
+  - id: e-nfip
+    title: "Estonian NFIP contact (EU listing)"
+    citation: "Police and Border Guard Board"
+    url: "https://eur-lex.europa.eu/legal-content/EN-SL/TXT/?from=EN&uri=CELEX%3A52012XG1013%2801%29"
+    instrument_date: ""
+    language: en
+    instrument_type: other
+    imposes_duty: true
+    cites_rec_2022_2: false
+    summary: "NFIP hosted in PPA Public Order Police Department per EU NFIP contact list."
+indicators:
+  - id: a1.gov.committee
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Permit/Police coordination; no Annex-1 national committee found."
+  - id: a1.gov.local
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Municipality + Police + Rescue approval of Sport Act permits."
+  - id: a1.gov.strategy
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No published SSS strategy opened."
+  - id: a1.gov.roles
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Sport Act §§ 20–23; Security Activities Act."
+  - id: a1.safety.integrated
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Convention in force 2020; Sport Act multi-agency permit, not a full Football Act."
+  - id: a1.safety.operator
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Sport Act § 23; 2025 pyrotechnics/accessibility additions."
+  - id: a1.safety.officer
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Named person responsible for public order and security in permit."
+  - id: a1.safety.regulations
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "A. Le Coq Arena rules; ticketed-entry practice."
+  - id: a1.cert.required
+    status: partial
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Municipal event permit, not standing stadium safety certificate."
+  - id: a1.cert.authority
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Sport Act refusal/conditions; agency approval."
+  - id: a1.cert.capacity
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "EJL category / permit conditions; not a dedicated capacity certificate."
+  - id: a1.cert.inspect
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Approval agencies; fabric inspection duty not fully mapped."
+  - id: a1.cert.enforce
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Sport Act § 25; higher legal-person fine in 2025 reform."
+  - id: a1.venue.infrastructure
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "EJL stadium standards 2025."
+  - id: a1.venue.segregation
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Sport Act segregation duty; EJL sectors."
+  - id: a1.venue.cctv
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "A. Le Coq surveillance; nationwide statutory CCTV duty not found."
+  - id: a1.venue.operations
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Permit approval process."
+  - id: a1.emerg.plan
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Risk assessment / security plan; universal statutory emergency plan not found."
+  - id: a1.emerg.contingency
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Risk management in permit; labelled contingency statute not found."
+  - id: a1.emerg.evacuation
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Venue rules / EJL doors; statutory universal duty not opened."
+  - id: a1.emerg.exercise
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Recorded exercise cycle not found."
+  - id: a1.svc.required
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Security undertaking or stewards required in permit."
+  - id: a1.svc.stewards
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Responsible person named; Annex-2 hierarchy not spelled out."
+  - id: a1.svc.volunteers
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "No dedicated volunteer-steward regime opened."
+  - id: a1.access.inclusion
+    status: partial
+    confidence: medium
+    change: new
+    evidence: [e-review]
+    note: "2025 Act adds accessibility info to permit (2026 force dates)."
+  - id: a1.access.tickets
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Permit ticketing info; EJL e-ticketing for higher categories."
+  - id: a1.access.prohibited
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "A. Le Coq rules; Sport Act pyrotechnics organiser duties."
+  - id: a1.access.search
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Security staff inspection powers in venue rules / security law."
+  - id: a1.access.expel
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "House rules; Representative powers."
+  - id: a1.police.role
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Police approval; public order."
+  - id: a1.police.risk
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "Operational risk assessment; no statutory category scheme."
+  - id: a1.police.ban
+    status: partial
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Civil/EJL exclusion; statutory football ban scheme not found."
+  - id: a1.police.database
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No central football ban file found."
+  - id: a1.police.nfip
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "PPA NFIP in EU contact lists."
+  - id: a1.dial.dialogue
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No statutory dialogue duty found."
+  - id: a1.dial.slo
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No statutory SLO found."
+  - id: a1.dial.dao
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No statutory DAO found."
+  - id: a1.dial.discrimination
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Venue rules; general criminal/equality law."
+  - id: a1.dial.projects
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "No legal duty found."
+  - id: a1.off.conduct
+    status: met
+    confidence: high
+    change: unchanged
+    evidence: [e-review]
+    note: "Penal / misdemeanour law; house rules; association discipline."
+  - id: a1.off.staff
+    status: partial
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Ordinary assault law; sports-staff aggravation not found."
+  - id: a2.status.defined
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Security staff defined; organiser stewards less fully defined."
+  - id: a2.status.qualified
+    status: partial
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Met for licensed security guards; not confirmed for all organiser stewards."
+  - id: a2.status.vetting
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Security Activities Act reliability for licensed staff."
+  - id: a2.status.provider
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Licensed security undertakings; organiser steward option."
+  - id: a2.duty.crowd
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Security/steward duties in plan or permit description."
+  - id: a2.duty.powers
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Security staff powers; distinct from police."
+  - id: a2.duty.emergency
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "Security plans may include; syllabus not opened."
+  - id: a2.duty.police
+    status: met
+    confidence: medium
+    change: unchanged
+    evidence: [e-review]
+    note: "Permit approval and conditions."
+  - id: a2.conduct.code
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "National steward code not found."
+  - id: a2.conduct.visible
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Not found as national football-steward rule."
+  - id: a2.records.handbook
+    status: partial
+    confidence: low
+    change: unknown
+    evidence: [e-review]
+    note: "Duties described in permit; issued handbook not confirmed."
+  - id: a2.records.kept
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Stronger for licensed security; organiser stewards unclear."
+  - id: a2.train.initial
+    status: partial
+    confidence: medium
+    change: amended
+    evidence: [e-review]
+    note: "Required for security guards; not confirmed for all stewards."
+  - id: a2.train.ct
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Syllabus not opened."
+  - id: a2.train.exercise
+    status: not_found
+    confidence: medium
+    change: unknown
+    evidence: [e-review]
+    note: "Not found."
+  - id: a2.svc.welcome
+    status: partial
+    confidence: low
+    change: new
+    evidence: [e-review]
+    note: "Accessibility entering permit file; steward welcome duty not detailed."
+  - id: a2.svc.law
+    status: met
+    confidence: high
+    change: amended
+    evidence: [e-review]
+    note: "Security Activities Act + Sport Act gateway."
+gaps:
+  - indicator: a1.gov.strategy
+    question: "Is there a published national strategy on safety, security and service at football / sports events, and is it kept under review?"
+  - indicator: a1.cert.required
+    question: "Does any authority issue a standing stadium safety certificate with a stated safe capacity beyond the municipal event permit and EJL category standards?"
+  - indicator: a2.status.qualified
+    question: "Are organiser-provided stewards (korrapidajad) subject to mandatory training, vetting, and identification rules equivalent to licensed security guards?"
+  - indicator: a1.police.ban
+    question: "Is there a statutory administrative or judicial football stadium ban, and a central database used at ticket gates?"
+  - indicator: a1.dial.slo
+    question: "Are Supporter Liaison Officers and Disability Access Officers required by law or only by UEFA/EJL licensing practice?"
+  - indicator: a1.venue.cctv
+    question: "Is CCTV mandatory at all designated football stadia, or only where EJL category / venue rules require it?"
+  - indicator: a1.police.nfip
+    question: "What is the current organisational home and public page of the Estonian NFIP within the Police and Border Guard Board?"
+  - indicator: a1.gov.committee
+    question: "Has any Estonian instrument adopted or cited Recommendation Rec(2022)2 by name since 2022?"
+  - indicator: a1.safety.operator
+    question: "Which July 2025 Sport Act amendments are already in force for football matches as of this review, and which wait until 2026?"
+  - indicator: a1.emerg.exercise
+    question: "Are emergency plans and recorded evacuation exercises required by statute for all permitted football events?"
