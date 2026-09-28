@@ -121,5 +121,7 @@ sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
 background/
   first-topic-list.md
+  how-a-country-scan-works.md   method note for partners
+  how-a-country-scan-works.pdf  same note, for sharing
 README.md
 ```
