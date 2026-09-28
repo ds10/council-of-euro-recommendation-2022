@@ -1,6 +1,6 @@
 # National uptake of Recommendation Rec(2022)2
 
-**Start with the [United Kingdom review](countries/united-kingdom.md).** It is the first completed country file. The [Austria review](countries/austria.md) is the second. The [Belgium review](countries/belgium.md) is the third. Read any of them from the top. The topic sections are the findings. The table at the end is the same findings, one line per duty.
+**Start with the [United Kingdom review](countries/united-kingdom.md).** It is the first completed country file. The [Austria review](countries/austria.md) is the second. The [Belgium review](countries/belgium.md) is the third. The [Estonia review](countries/estonia.md) is the fourth. Read any of them from the top. The topic sections are the findings. The table at the end is the same findings, one line per duty.
 
 This repository is the review of how far countries have reflected [Recommendation Rec(2022)2](sources/Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf) in national legal, regulatory, and administrative frameworks, and what has changed since it was adopted.
 
@@ -85,7 +85,7 @@ The cross-country product is a map: by indicator, how many countries are `met`, 
 ## How the work proceeds
 
 1. **Codebook v1.** In place. Revise an indicator only when a pilot shows it is too wide to judge or too narrow to be worth a question.
-2. **Pilot.** The United Kingdom review is written. England and Wales, Scotland, and Northern Ireland are kept distinct where their regimes differ. The Austria review is the second country file: a State Party whose core instruments are in German, so the desk review is tested beyond English-only sources. The Belgium review is the third: a State Party with a dedicated federal Football Act and stewarding decree, used as a proof of concept for expert feedback.
+2. **Pilot.** The United Kingdom review is written. England and Wales, Scotland, and Northern Ireland are kept distinct where their regimes differ. The Austria review is the second country file: a State Party whose core instruments are in German, so the desk review is tested beyond English-only sources. The Belgium review is the third: a State Party with a dedicated federal Football Act and stewarding decree, used as a proof of concept for expert feedback. The Estonia review is the fourth: a State Party whose core event duties sit in a general Sport Act plus the Security Activities Act and football-association standards.
 3. **Desk review.** One country file per remaining State Party, copied from [`countries/_template.yaml`](countries/_template.yaml).
 4. **Survey.** Send the pre-filled questions. File the replies against the same indicators.
 5. **Overview.** Update the assessments from the replies and write the cross-country map.
@@ -103,7 +103,7 @@ A finding based on a text the reviewer cannot read is recorded at low confidence
 
 ## Status
 
-Codebook v1 is in [`codebook/`](codebook/). The [United Kingdom review](countries/united-kingdom.md) is the first assessment. The [Austria review](countries/austria.md) is the second. The [Belgium review](countries/belgium.md) is the third. The country template for the next file is [`countries/_template.yaml`](countries/_template.yaml).
+Codebook v1 is in [`codebook/`](codebook/). The [United Kingdom review](countries/united-kingdom.md) is the first assessment. The [Austria review](countries/austria.md) is the second. The [Belgium review](countries/belgium.md) is the third. The [Estonia review](countries/estonia.md) is the fourth. The country template for the next file is [`countries/_template.yaml`](countries/_template.yaml).
 
 ```
 codebook/
@@ -116,6 +116,8 @@ countries/
   austria.yaml
   belgium.md           the third review
   belgium.yaml
+  estonia.md           the fourth review
+  estonia.yaml
   _template.yaml
 sources/
   Rec-2022-2-model-national-legislative-and-regulatory-framework.pdf
