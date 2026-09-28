@@ -6,9 +6,21 @@ Version for the Belgium proof of concept — 28 September 2026
 
 ---
 
+## Who does what
+
+| Role | Who | What they do |
+|---|---|---|
+| **Desk reviewer (AI agent)** | Cursor cloud agent working in this repository | Runs the search protocol, opens public sources, drafts judgements against the 58 duties, writes the `.md` / `.yaml` files and survey questions |
+| **Review team (humans)** | Project / CEDS team | Sets the codebook and method; reads the draft; challenges weak lines; decides what to send to the country |
+| **Country expert (human)** | Micheal’s counterpart / national representative | Confirms, corrects, or supplies missing instruments; answers the survey gaps |
+
+When this note says **“the reviewer”**, it means the **AI desk agent** that produced the draft country file — not a human lawyer signing off the law. The AI draft is the starting map. **Humans check and own the result** before it is treated as settled.
+
+---
+
 ## One-sentence summary
 
-A country scan is a checklist-driven desk review of public legal sources against Rec(2022)2’s 58 duties, with every search and judgement written into the repository so an expert can reproduce, challenge, or correct it. It is not a black-box score.
+A country scan is a checklist-driven desk review of public legal sources against Rec(2022)2’s 58 duties, with every search and judgement written into the repository so a human expert can reproduce, challenge, or correct it. It is not a black-box score.
 
 ---
 
@@ -38,6 +50,8 @@ Every country is scored against **the same 58**. We do not invent new questions 
 
 ## 2. What “doing a country” involves, step by step
 
+These steps are what the **AI desk agent** does when producing a draft. Humans then check the output (see section 5).
+
 ### Step A — Confirm party status
 
 Look up whether the country is a State Party to the Saint-Denis Convention (CETS No. 218), with signature, ratification, and entry-into-force dates.
@@ -61,7 +75,7 @@ Empty results are logged as carefully as hits. A search that finds nothing is st
 
 ### Step C — Open the actual instruments
 
-Titles alone are not enough. The reviewer opens statutes, royal decrees / regulations, consolidated texts, and official ministry pages, and reads the provisions that speak to each duty.
+Titles alone are not enough. The AI desk agent opens statutes, royal decrees / regulations, consolidated texts, and official ministry pages, and reads the provisions that speak to each duty.
 
 *Belgium example — main instruments opened:*
 
@@ -77,7 +91,7 @@ What was **not** opened is also stated (for Belgium: full RBFA/Pro League licens
 
 ### Step D — Map text to each of the 58 duties
 
-For each duty, the reviewer asks: **does a national instrument require this?**
+For each duty, the AI desk agent asks: **does a national instrument require this?**
 
 | Judgement | Meaning |
 |---|---|
@@ -115,7 +129,7 @@ One open question also asks what has changed since 1 September 2022 that the bri
 
 ## 3. How you know which pages were gone through
 
-Nothing is invisible. There are three audit layers in every country file.
+Nothing is invisible. There are three audit layers in every country file. These are the first place **humans** look when checking the AI draft.
 
 ### A. Search log (`searches:` in the `.yaml`)
 
@@ -140,7 +154,7 @@ Each of the 58 judgements points back to those evidence IDs.
 The judgement table at the end of the `.md` has a one-line source per duty.  
 Full URLs are repeated under **Sources**.
 
-So if a partner asks “did you actually look at the steward decree?”, the answer is in the yaml search entry, the evidence ID, the md search table, and every indicator that cites that decree.
+So if a partner asks “did the AI actually look at the steward decree?”, the answer is in the yaml search entry, the evidence ID, the md search table, and every indicator that cites that decree. A human can open the same URL and re-read the article.
 
 ---
 
@@ -149,15 +163,57 @@ So if a partner asks “did you actually look at the steward decree?”, the ans
 Important for expectations:
 
 - **Not a live scrape of every law in the country’s database.** It is targeted search plus reading of opened pages and PDFs.  
-- **Not a model that “knows” national law.** The review only knows what it found and cited in that pass.  
+- **Not a model that “knows” national law.** The draft only knows what it found and cited in that pass.  
 - **Not exhaustive of every circular or association handbook.** If something was not opened, the brief says so and drops confidence or marks `partial` / a survey question.  
 - **Association practice is not automatically statute.** Club web pages can support `partial`; they do not get treated as a hard national duty unless a binding instrument requires it.  
-- **Language limits are recorded.** A judgement on a text the reviewer could not fully verify stays at lower confidence until a reader of that language, or the country representative, confirms it.  
-- **Expert validation is part of the design.** The desk review is the draft map. The survey is how the country expert closes gaps.
+- **Language limits are recorded.** A judgement the AI could not fully verify stays at lower confidence until a human reader of that language, or the country representative, confirms it.  
+- **Not a final legal opinion.** The AI desk review is a draft map. Human review and country-expert validation close the gaps.
 
 ---
 
-## 5. What has been completed so far
+## 5. Where humans check the results
+
+This is the non-magic part. Humans do not have to trust the AI’s word; they check the trail.
+
+### For the project / CEDS review team
+
+| Check | Where | What to do |
+|---|---|---|
+| Read the draft narrative | `countries/<country>.md` — top sections and topic-by-topic text | Does the short answer match what you know of the country? Spot overclaims. |
+| Spot-check judgements | Judgement table at the end of the `.md`, or each line in the `.yaml` | Pick high-stakes duties (bans, certification, stewarding). Follow the source column / evidence ID. |
+| Re-open the cited law | URLs under **Sources** and in `evidence:` | Confirm the article really says what the draft claims. |
+| See what was missed | “Where this was looked for” + notes on what was **not** opened | Decide whether another pass is needed before sending to the country. |
+| Challenge weak lines | Any `partial`, `not_found`, or `low` confidence row | Either find better evidence, or leave it for the country survey. |
+| Compare countries | Same indicator ID across UK / Austria / Belgium `.yaml` files | Same duty, same scale — useful for consistency checks. |
+
+Practical rule of thumb: **if a line matters for a decision or for sending to a country expert, a human should open the cited source at least once.**
+
+### For Micheal’s team / the country expert
+
+| Check | Where | What to do |
+|---|---|---|
+| Read the brief as a national reader | `countries/belgium.md` (or the relevant country file) | Confirm the framework description; flag wrong or outdated instruments. |
+| Answer the survey block | “What a … reader would be asked” section | Confirm, correct, or name the missing instrument for each gap question. |
+| Supply instruments the AI missed | Reply against the same indicator IDs (`a1.cert.required`, `a2.train.ct`, …) | Those replies update the assessment; they become the human-verified record. |
+| Challenge a `met` that is too strong | Judgement table + Sources | Point to the real instrument, or say the duty is only guidance / only some events → status becomes `partial`. |
+| Challenge a `not_found` | Same | Name the statute, decree, circular, or association rule the desk pass missed. |
+
+The survey is designed so the country expert does **not** re-do all 58 duties from scratch. Clusters that are `met` at high confidence can be one confirmation. Effort goes to gaps and weak lines.
+
+### What “done” means
+
+| Stage | Owner | Meaning |
+|---|---|---|
+| Draft desk review in the repo | AI desk agent | Sourced map exists; audit trail written |
+| Internal human read | Project / CEDS team | Draft is good enough to share |
+| Country expert reply | Micheal’s counterpart | Gaps closed or corrected |
+| Updated assessment | Project team (from replies) | Human-verified lines replace or confirm AI draft lines |
+
+Until the country expert (or an equivalent human legal reader) has confirmed or corrected it, treat the file as a **desk draft**, not a certified national position.
+
+---
+
+## 6. What has been completed so far
 
 | Country | Role | File |
 |---|---|---|
@@ -169,7 +225,7 @@ Belgium was chosen as a PoC because it has a dedicated federal Football Act and 
 
 ---
 
-## 6. What a partner should open first
+## 7. What a partner should open first
 
 | File | What it is |
 |---|---|
@@ -183,26 +239,28 @@ Belgium PoC pull request: https://github.com/ds10/council-of-euro-recommendation
 
 ---
 
-## 7. End-to-end flow (for a single country)
+## 8. End-to-end flow (for a single country)
 
 ```
 Rec(2022)2 Annex 1 + Annex 2
-            ↓
+            |
      Codebook (58 duties)
-            ↓
+            |
  Fixed search protocol (6 source families)
-            ↓
- Open and read national instruments
-            ↓
- Judgement per duty: status + confidence + change + source
-            ↓
+            |
+ AI desk agent opens public instruments
+            |
+ Draft judgement per duty: status + confidence + change + source
+            |
  Country brief (.md) + working record (.yaml)
-            ↓
+            |
+ Humans check: sources, weak lines, what was not opened
+            |
  Survey questions for country expert
-            ↓
+            |
  Expert confirms / corrects / supplies missing instruments
-            ↓
- Assessment updated → later cross-country map
+            |
+ Assessment updated -> later cross-country map
 ```
 
 ---
