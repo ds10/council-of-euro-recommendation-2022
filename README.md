@@ -123,5 +123,7 @@ background/
   first-topic-list.md
   how-a-country-scan-works.md   method note for partners
   how-a-country-scan-works.pdf  same note, for sharing
+  country-review-cost-estimate.md  token/£ budgeting note
+  country-review-cost-estimate.pdf same note, for sharing
 README.md
 ```
